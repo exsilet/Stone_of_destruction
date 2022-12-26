@@ -4,6 +4,7 @@ public class ColisionHendler : MonoBehaviour
 {
     [SerializeField] private PlayerMoney player;
     [SerializeField] private GameObject panel;
+
     private int currentFactor;
     private float currentScale;
 
@@ -49,28 +50,4 @@ public class ColisionHendler : MonoBehaviour
             house.HitHouse();
         }
     }
-
-    //private void OnCollisionEnter(Collision collision)
-    //{
-    //    if (collision.gameObject.TryGetComponent(out ExplosionHouse house))
-    //    {
-    //        house.HitHouse();
-    //    }
-    //}
-
-    //private void OnTriggerExit(Collider other)
-    //{
-    //    if (other.gameObject.TryGetComponent(out ExplosionHouse house))
-    //    {
-    //        house.HitHouse();
-    //    }
-    //}
-
-    //private void OnTriggerStay(Collider other)
-    //{
-    //    if (other.gameObject.TryGetComponent(out ExplosionHouse house))
-    //    {
-    //        house.HitHouse();
-    //    }
-    //}
 }

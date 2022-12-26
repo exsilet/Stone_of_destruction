@@ -11,6 +11,8 @@ public class PhysicsMovement : MonoBehaviour
     [SerializeField] private float _speedDisplacement;
     [SerializeField] private float _rotationSpeed;
     [SerializeField] private float _gravity;
+    [SerializeField] private float _speedForward;
+    [SerializeField] private float _speedHorizontal;
 
     private float currentScale;
     public event UnityAction EndLevels;
@@ -23,13 +25,14 @@ public class PhysicsMovement : MonoBehaviour
         Time.timeScale = 1;
     }
 
-    public void Move(Vector3 direction)
+    public void Move(float direction)
     {
-        Vector3 directionAlongSurfase = _surfaceSlider.Project(direction.normalized);
-        Vector3 offset = directionAlongSurfase * (_speedDisplacement * Time.deltaTime);
+        //Vector3 directionAlongSurfase = _surfaceSlider.Project(direction.normalized);
+        //Vector3 offset = directionAlongSurfase * (_speedDisplacement * Time.fixedDeltaTime);
 
-        _rigidbody.MovePosition(_rigidbody.position + offset);
-
+        //_rigidbody.MovePosition(_rigidbody.position + offset);
+        _rigidbody.velocity = new Vector3(direction * _speedHorizontal, _rigidbody.velocity.y, (_speedForward * 1.1f));
+        //метод incrisesspeed float
 
         _rigidbody.AddTorque(_rotationSpeed, 0f, 0f);
     }

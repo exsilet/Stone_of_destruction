@@ -13,20 +13,12 @@ public class KeyboardInput : MonoBehaviour
 
     public float UpdateSpeed => _updateSpeed;
 
-    private void Update()
+    private void FixedUpdate()
     {
-        //float horizontal = Input.GetAxis(Horizontal);
-        //float horizontal = Input.GetAxis(MouseX);
         float moveVector;
-        moveVector = Move();
+        moveVector = Input.GetAxis(Horizontal);
 
-        _movement.Move(new Vector3(moveVector, 0f, (_speedForward + _updateSpeed)));
+        _movement.Move(moveVector);
         _movement.VolumeScale(_speedForward);
-    }
-
-    public float Move()
-    {
-        float horizontal;
-        return horizontal = Input.GetAxis(Horizontal);
     }
 }

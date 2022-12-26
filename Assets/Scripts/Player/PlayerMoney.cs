@@ -20,6 +20,11 @@ public class PlayerMoney : MonoBehaviour
         CurrentMoneyChanged?.Invoke(_currentMoney);
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log(other.name);
+    }
+
     public void IncreaseMoney(int value)
     {
         _moneyLevels += value;
