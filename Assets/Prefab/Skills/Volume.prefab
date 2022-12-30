@@ -47,6 +47,6 @@ MonoBehaviour:
   _icon: {fileID: 21300000, guid: 0d625f208ad8e4a6db742c86a0c94c8e, type: 3}
   _label: increase in volume
   _description: increase volume by 10%
-  _price: 60
+  _basePrice: 25
   _upgradeLimit: 6
-  upgradeCount: 0
+  UpgradeCount: 0

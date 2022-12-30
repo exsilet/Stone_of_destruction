@@ -6,6 +6,7 @@ public class MagnetPlayer : MonoBehaviour
 {
     [SerializeField] private float _radius;
     [SerializeField] private Magnet _magnet;
+    [SerializeField] private SaveLoadSkills _saveLoadSkills;
 
     private float upgradeMagnet;
 
@@ -16,7 +17,7 @@ public class MagnetPlayer : MonoBehaviour
 
     public void IncreaseRadius()
     {
-        upgradeMagnet = PlayerPrefs.GetInt(_magnet.Product);
+
         _radius += upgradeMagnet;
     }
 

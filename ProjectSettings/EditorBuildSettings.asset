@@ -74,4 +74,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Plugins/CW/LeanLocalization/Examples/_03_Text.unity
     guid: cabe529d65208c6499488866d90f2c68
+  - enabled: 0
+    path: Assets/Joystick Pack/Examples/Example_Scene.unity
+    guid: 845d1d921fc301c4398be4f3977d6f34
   m_configObjects: {}

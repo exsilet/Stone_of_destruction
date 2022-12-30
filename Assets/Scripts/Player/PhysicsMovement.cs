@@ -13,8 +13,9 @@ public class PhysicsMovement : MonoBehaviour
     [SerializeField] private float _gravity;
     [SerializeField] private float _speedForward;
     [SerializeField] private float _speedHorizontal;
-
+    
     private float currentScale;
+    public float _increaseSpeed = 1f;
     public event UnityAction EndLevels;
 
     private void Start()
@@ -27,11 +28,7 @@ public class PhysicsMovement : MonoBehaviour
 
     public void Move(float direction)
     {
-        //Vector3 directionAlongSurfase = _surfaceSlider.Project(direction.normalized);
-        //Vector3 offset = directionAlongSurfase * (_speedDisplacement * Time.fixedDeltaTime);
-
-        //_rigidbody.MovePosition(_rigidbody.position + offset);
-        _rigidbody.velocity = new Vector3(direction * _speedHorizontal, _rigidbody.velocity.y, (_speedForward * 1.1f));
+        _rigidbody.velocity = new Vector3(direction * _speedHorizontal, _rigidbody.velocity.y, (_speedForward * _increaseSpeed));
         //метод incrisesspeed float
 
         _rigidbody.AddTorque(_rotationSpeed, 0f, 0f);
@@ -46,4 +43,25 @@ public class PhysicsMovement : MonoBehaviour
             EndLevels?.Invoke();
         }
     }
+
+    //public float IncreaseSpeed()
+    //{
+    //    switch (_increaseSpeed)
+    //    {
+    //        case 1:
+    //            return _increaseSpeed = (float)Math.Round((double)(105 / 100));
+    //        case 2:
+    //            return _increaseSpeed = (float)Math.Round((double)110 / 100);
+    //        case 3:
+    //            return _speedForward = (float)Math.Round((double)(_speedForward * 115 / 100));
+    //        case 4:
+    //            return _speedForward = (float)Math.Round((double)(_speedForward * 120 / 100));
+    //        case 5:
+    //            return _speedForward = (float)Math.Round((double)(_speedForward * 125 / 100));
+    //        case 6:
+    //            return _speedForward = (float)Math.Round((double)(_speedForward * 130 / 100));
+    //    }
+
+    //    return _speedForward;
+    //}
 }

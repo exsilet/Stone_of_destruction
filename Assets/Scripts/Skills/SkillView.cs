@@ -14,37 +14,49 @@ public class SkillView : MonoBehaviour
     [SerializeField] private Button _sellButton;
     [SerializeField] private Upgrade _upgrade;
 
-    private Skill _skills;
-
-    public TMP_Text Price => _price;
+    private Skill _skill;
+    private bool _isInitialized;
 
     public event UnityAction<Skill, SkillView> SellButtonClick;
 
     private void OnEnable()
     {
+        if (_isInitialized == false)
+            return;
+
         _sellButton.onClick.AddListener(OnClick);
+        _skill.UpgradePriceSkill += RefrashPrice;
     }
 
     private void OnDisable()
     {
         _sellButton.onClick.RemoveListener(OnClick);
+        _skill.UpgradePriceSkill -= RefrashPrice;
     }
 
-    public void Initialize(Skill skills)
+    private void RefrashPrice(int newPrice)
     {
-        _skills = skills;
+        _price.text = newPrice.ToString();
+    }
 
-        _label.text = skills.Label;
-        _description.text = skills.Descrition;
-        _icon.sprite = skills.Icon;
-        _price.text = skills.Price.ToString();
-        _upgrade.Initialize(skills);
-        _skills.UpgradeCount = 0;
+    public void Initialize(Skill skill)
+    {
+        _skill = skill;
+        Debug.Log(_skill.Price);
+        _label.text = skill.Label;
+        _description.text = skill.Descrition;
+        _icon.sprite = skill.Icon;
+        _price.text = skill.Price.ToString();
+        _upgrade.Initialize(skill);
+        _skill.UpgradeCount = 0;
+
+        _isInitialized = true;
+        OnEnable();
     }
 
     public void OnClick()
     {
         Debug.Log("Onclic");
-        SellButtonClick?.Invoke(_skills, this);
+        SellButtonClick?.Invoke(_skill, this);
     }
 }

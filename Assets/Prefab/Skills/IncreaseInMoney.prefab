@@ -47,6 +47,6 @@ MonoBehaviour:
   _icon: {fileID: 21300000, guid: ce0dfd54574d644aea051e0f91555b1d, type: 3}
   _label: Increase In Money
   _description: earn 20% more
-  _price: 30
-  _upgradeCount: 0
+  _basePrice: 60
   _upgradeLimit: 6
+  UpgradeCount: 0
