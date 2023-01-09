@@ -49,5 +49,10 @@ public class ColisionHendler : MonoBehaviour
         {
             house.HitHouse();
         }
+
+        if (other.gameObject.TryGetComponent(out Bomb bomb))
+        {
+            bomb.Tossing();
+        }
     }
 }

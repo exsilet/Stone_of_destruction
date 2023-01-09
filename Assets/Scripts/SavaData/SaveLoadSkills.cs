@@ -7,12 +7,16 @@ public class SaveLoadSkills : MonoBehaviour
     private const string SkillsKey = "SkillsKey";
 
     private DataBase _dataBase;
+    private bool _initialized;
+    public bool Initialized => _initialized;
 
-    private void OnEnable()
+    private void Awake()
     {
         _dataBase = PlayerPrefs.HasKey(SkillsKey)
             ? JsonUtility.FromJson<DataBase>(PlayerPrefs.GetString(SkillsKey))
             : new DataBase();
+
+        _initialized = true;
     }
 
     private void OnDisable()

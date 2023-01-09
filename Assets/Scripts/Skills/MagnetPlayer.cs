@@ -5,20 +5,17 @@ using UnityEngine;
 public class MagnetPlayer : MonoBehaviour
 {
     [SerializeField] private float _radius;
-    [SerializeField] private Magnet _magnet;
+    [SerializeField] private Skill _magnet;
     [SerializeField] private SaveLoadSkills _saveLoadSkills;
 
-    private float upgradeMagnet;
-
-    private void Awake()
+    private void Start()
     {
         IncreaseRadius();
     }
 
     public void IncreaseRadius()
     {
-
-        _radius += upgradeMagnet;
+        _radius += _magnet.CountLevelSkills();
     }
 
     private void OnDrawGizmos()
