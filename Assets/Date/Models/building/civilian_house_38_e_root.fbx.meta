@@ -1,21 +1,11 @@
 fileFormatVersion: 2
-guid: 2d8cd049aa794d944a13e65e22267da1
+guid: 6bba716628d8a8a4aae9cf38247fe6f5
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: StatueMat
-    second: {fileID: 2100000, guid: 00f7a169ecc6a0240bf028d545844ecb, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Zamok1Mat
-    second: {fileID: 2100000, guid: 1bd0eeaa10a871a4883171233fc9194f, type: 2}
+  externalObjects: {}
   materials:
-    materialImportMode: 2
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 1

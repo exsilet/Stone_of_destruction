@@ -61,7 +61,7 @@ public class Skill : MonoBehaviour
     public float CountLevelSkills()
     {
         Debug.Log("Coffecient " + UpgradeCount);
-        Debug.Log(UpgradeCount > 0 ? _baseCoffecient * (float)UpgradeCount : -1);
-        return UpgradeCount > 0 ? _baseCoffecient * (float)UpgradeCount : 0;
+        Debug.Log(UpgradeCount > 0 ? _baseCoffecient * (float)UpgradeCount : 0);
+        return UpgradeCount > 0 ? _baseCoffecient * UpgradeCount : 0;
     }
 }

@@ -10,14 +10,23 @@ public class SaveLoadSkills : MonoBehaviour
     private bool _initialized;
     public bool Initialized => _initialized;
 
-    private void Awake()
+    private void OnEnable()
     {
         _dataBase = PlayerPrefs.HasKey(SkillsKey)
-            ? JsonUtility.FromJson<DataBase>(PlayerPrefs.GetString(SkillsKey))
-            : new DataBase();
+    ? JsonUtility.FromJson<DataBase>(PlayerPrefs.GetString(SkillsKey))
+    : new DataBase();
 
         _initialized = true;
     }
+
+    //private void Awake()
+    //{
+    //    _dataBase = PlayerPrefs.HasKey(SkillsKey)
+    //        ? JsonUtility.FromJson<DataBase>(PlayerPrefs.GetString(SkillsKey))
+    //        : new DataBase();
+
+    //    _initialized = true;
+    //}
 
     private void OnDisable()
     {

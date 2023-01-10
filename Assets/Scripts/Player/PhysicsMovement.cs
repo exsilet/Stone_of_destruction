@@ -25,13 +25,19 @@ public class PhysicsMovement : MonoBehaviour
 
     private void Start()
     {
-        IncreaseVolume();
-        IncreaseSpeed();
         _rigidbody = GetComponent<Rigidbody>();
         Physics.gravity = new Vector3(0f, _gravity, 0f);
         currentScale = transform.localScale.x;
         Time.timeScale = 1;
+        StartCoroutine(StartIncrese());
 
+    }
+
+    private IEnumerator StartIncrese()
+    {
+        yield return null;
+        IncreaseVolume();
+        IncreaseSpeed();
     }
 
     public void Move(float direction)
@@ -49,6 +55,7 @@ public class PhysicsMovement : MonoBehaviour
 
     public void IncreaseSpeed()
     {
+        Debug.Log("speed " + _skillSpeed.CountLevelSkills());
         _increaseSpeed += _skillSpeed.CountLevelSkills();
         currentSpeed = _speedForward * _increaseSpeed;
     }
