@@ -1,6 +1,4 @@
-using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 
 public class Shop : MonoBehaviour
@@ -17,16 +15,6 @@ public class Shop : MonoBehaviour
     private List<SkillView> _skillViews = new List<SkillView>();
     private int _currentMoney;
     private bool _isStarted;
-
-    //private void Awake()
-    //{
-    //    for (int i = 0; i < _skillPrefabs.Count; i++)
-    //    {
-    //        SkillView view = Instantiate(_skillViewPrefab, _itemContainer.transform);
-    //        _skillViews.Add(view);
-    //        view.Initialize(_skillPrefabs[i]);
-    //    }
-    //}
 
     private void Start()
     {
@@ -59,7 +47,6 @@ public class Shop : MonoBehaviour
         foreach (var view in _skillViews)
         {
             view.SellButtonClick += TrySellBuy;
-            Debug.Log("покупка в подписке");
         }
     }
 
@@ -73,7 +60,6 @@ public class Shop : MonoBehaviour
 
     public void TrySellBuy(Skill skills, SkillView view)
     {
-        Debug.Log("покупка");
         currentCostOfGold = skills.Price;
 
         if (_currentMoney <= 0)

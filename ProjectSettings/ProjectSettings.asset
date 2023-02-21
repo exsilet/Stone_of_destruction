@@ -157,6 +157,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.DefaultCompany.Stone_of_destruction
     Standalone: com.DefaultCompany.Stone-of-destruction
+    iPhone: com.DefaultCompany.Stone-of-destruction
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -537,7 +538,7 @@ PlayerSettings:
   m_TemplateCustomTags: {}
   mobileMTRendering:
     Android: 1
-    iPhone: 1
+    iPhone: 0
     tvOS: 1
   m_BuildTargetGroupLightmapEncodingQuality:
   - m_BuildTarget: Android
@@ -806,13 +807,15 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 1
-  webGLPowerPreference: 2
-  scriptingDefineSymbols: {}
+  webGLPowerPreference: 1
+  scriptingDefineSymbols:
+    WebGL: YANDEX_GAMES
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
   il2cppCompilerConfiguration: {}
-  managedStrippingLevel: {}
+  managedStrippingLevel:
+    WebGL: 3
   incrementalIl2cppBuild: {}
   suppressCommonWarnings: 1
   allowUnsafeCode: 0

@@ -24,8 +24,6 @@ public class Upgrade : MonoBehaviour
 
     private void OnSkillsUpgaded(int upgradeCount)
     {
-        Debug.Log("onclikUpgrade");
-
         if (_skills.UpgradeCount <= _skills.UpgradeLimit)
         {
             int upgrade = upgradeCount - 1;

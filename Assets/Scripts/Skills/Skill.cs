@@ -1,3 +1,4 @@
+using Lean.Localization;
 using System;
 using System.Collections;
 using UnityEngine;
@@ -40,7 +41,14 @@ public class Skill : MonoBehaviour
     private void Start()
     {
         UpgradeCount = _saveLoadSkills.ReadStarData(Label);
+        StartCoroutine(StartIncrese());
     }
+
+    private IEnumerator StartIncrese()
+    {
+        yield return null;
+        UpgradePrice();
+    }    
 
     public void Upgrade()
     {
@@ -54,13 +62,11 @@ public class Skill : MonoBehaviour
     public void UpgradePrice()
     {
         _price = _basePrice * (UpgradeCount + 1);
-        Debug.Log(_price + " adf");
         UpgradePriceSkill?.Invoke(_price);
     }
 
     public float CountLevelSkills()
     {
-        Debug.Log("Coffecient " + UpgradeCount);
         Debug.Log(UpgradeCount > 0 ? _baseCoffecient * (float)UpgradeCount : 0);
         return UpgradeCount > 0 ? _baseCoffecient * UpgradeCount : 0;
     }

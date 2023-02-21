@@ -11,7 +11,9 @@ GameObject:
   - component: {fileID: 5358155758014121068}
   - component: {fileID: 7280647444425359421}
   - component: {fileID: 1288210955068770374}
-  m_Layer: 0
+  - component: {fileID: 1482098454499683360}
+  - component: {fileID: 413425428747764931}
+  m_Layer: 8
   m_Name: wagon_sh_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,6 +86,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &1482098454499683360
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138187597112399326}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &413425428747764931
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138187597112399326}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4224930098766769427, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &476577745480796146
 GameObject:
   m_ObjectHideFlags: 0
@@ -95,7 +127,9 @@ GameObject:
   - component: {fileID: 8624554868202916569}
   - component: {fileID: 4623624312928838437}
   - component: {fileID: 3825585011627268872}
-  m_Layer: 0
+  - component: {fileID: 6252458186343925965}
+  - component: {fileID: 1135657620590631188}
+  m_Layer: 8
   m_Name: wagon_sh_26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,6 +202,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &6252458186343925965
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476577745480796146}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1135657620590631188
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 476577745480796146}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2753057041074285197, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &709897969450411132
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,7 +243,9 @@ GameObject:
   - component: {fileID: 7606026118147923172}
   - component: {fileID: 7542128216410542574}
   - component: {fileID: 1486364773948759134}
-  m_Layer: 0
+  - component: {fileID: 3672478511032992060}
+  - component: {fileID: 2143320562531570720}
+  m_Layer: 8
   m_Name: wagon_sh_18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -253,6 +319,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &3672478511032992060
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709897969450411132}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &2143320562531570720
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709897969450411132}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2198025318922711233, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &774846686872803531
 GameObject:
   m_ObjectHideFlags: 0
@@ -264,7 +360,9 @@ GameObject:
   - component: {fileID: 2711157619776043131}
   - component: {fileID: 6959214514522784967}
   - component: {fileID: 1930909815738365190}
-  m_Layer: 0
+  - component: {fileID: 1188048914719474075}
+  - component: {fileID: 7101725977289743696}
+  m_Layer: 8
   m_Name: wagon_sh_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -338,6 +436,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &1188048914719474075
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774846686872803531}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &7101725977289743696
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774846686872803531}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -586899600795279012, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &916829635647391174
 GameObject:
   m_ObjectHideFlags: 0
@@ -349,7 +477,9 @@ GameObject:
   - component: {fileID: 832781543810425233}
   - component: {fileID: 8024969159527279416}
   - component: {fileID: 3800393128069802568}
-  m_Layer: 0
+  - component: {fileID: 5942430855069520964}
+  - component: {fileID: 5127090906598439561}
+  m_Layer: 8
   m_Name: wagon_sh_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -422,6 +552,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &5942430855069520964
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916829635647391174}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &5127090906598439561
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916829635647391174}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1923799830415468770, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &1257063579575206939
 GameObject:
   m_ObjectHideFlags: 0
@@ -433,7 +593,9 @@ GameObject:
   - component: {fileID: 899774018596530219}
   - component: {fileID: 5592479042371998541}
   - component: {fileID: 1181645797872435909}
-  m_Layer: 0
+  - component: {fileID: 5072408556454168648}
+  - component: {fileID: 6728930505785943077}
+  m_Layer: 8
   m_Name: wagon_sh_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -506,6 +668,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &5072408556454168648
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257063579575206939}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &6728930505785943077
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257063579575206939}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5873372652854994228, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &1810654382639933737
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,7 +709,9 @@ GameObject:
   - component: {fileID: 209670575438059458}
   - component: {fileID: 1282696705447588740}
   - component: {fileID: 1656921149088483782}
-  m_Layer: 0
+  - component: {fileID: 6424356928905285171}
+  - component: {fileID: 2555799625953548080}
+  m_Layer: 8
   m_Name: wagon_sh_20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -591,6 +785,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &6424356928905285171
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810654382639933737}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &2555799625953548080
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1810654382639933737}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -479088158435874004, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &1938473085462875630
 GameObject:
   m_ObjectHideFlags: 0
@@ -602,7 +826,9 @@ GameObject:
   - component: {fileID: 4674598774890662649}
   - component: {fileID: 3501668964368830399}
   - component: {fileID: 4139275081533513736}
-  m_Layer: 0
+  - component: {fileID: 4134846450320972035}
+  - component: {fileID: 3312987806379628293}
+  m_Layer: 8
   m_Name: wagon_sh_25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -676,6 +902,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &4134846450320972035
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938473085462875630}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &3312987806379628293
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938473085462875630}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 69476059614168982, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &1963232328861622513
 GameObject:
   m_ObjectHideFlags: 0
@@ -687,7 +943,9 @@ GameObject:
   - component: {fileID: 1861208629336513443}
   - component: {fileID: 3772178587001192155}
   - component: {fileID: 2507743007731883864}
-  m_Layer: 0
+  - component: {fileID: 3626652457338103223}
+  - component: {fileID: 1220949177053993423}
+  m_Layer: 8
   m_Name: wagon_sh_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -761,6 +1019,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &3626652457338103223
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963232328861622513}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1220949177053993423
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963232328861622513}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8409778921182156493, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &1976387592338275588
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,7 +1060,9 @@ GameObject:
   - component: {fileID: 5125099995863025951}
   - component: {fileID: 3480999611794390138}
   - component: {fileID: 4431407050458121272}
-  m_Layer: 0
+  - component: {fileID: 1222408183090901681}
+  - component: {fileID: 3164846129455443411}
+  m_Layer: 8
   m_Name: wagon_sh_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -846,6 +1136,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &1222408183090901681
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976387592338275588}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &3164846129455443411
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976387592338275588}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8347878099541760295, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &2240945615678835036
 GameObject:
   m_ObjectHideFlags: 0
@@ -857,7 +1177,9 @@ GameObject:
   - component: {fileID: 9027965361566563047}
   - component: {fileID: 1851691667579474046}
   - component: {fileID: 5347710152077556651}
-  m_Layer: 0
+  - component: {fileID: 4211923050307691281}
+  - component: {fileID: 5211286843973343329}
+  m_Layer: 8
   m_Name: wagon_sh_27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -930,6 +1252,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &4211923050307691281
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2240945615678835036}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &5211286843973343329
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2240945615678835036}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6935603308601673531, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &2875553916291791336
 GameObject:
   m_ObjectHideFlags: 0
@@ -941,7 +1293,9 @@ GameObject:
   - component: {fileID: 1884394041450755559}
   - component: {fileID: 3563525533458412933}
   - component: {fileID: 6489818694389529317}
-  m_Layer: 0
+  - component: {fileID: 2962877121077468277}
+  - component: {fileID: 4861135051844938185}
+  m_Layer: 8
   m_Name: wagon_sh_19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1014,6 +1368,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &2962877121077468277
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2875553916291791336}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &4861135051844938185
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2875553916291791336}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 156680814645498858, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &3684932272455973470
 GameObject:
   m_ObjectHideFlags: 0
@@ -1025,7 +1409,9 @@ GameObject:
   - component: {fileID: 324599732046662668}
   - component: {fileID: 1366518088375195182}
   - component: {fileID: 2314577716926229524}
-  m_Layer: 0
+  - component: {fileID: 3382079305321446186}
+  - component: {fileID: 1931062541159281522}
+  m_Layer: 8
   m_Name: wagon_sh_22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1099,6 +1485,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &3382079305321446186
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3684932272455973470}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1931062541159281522
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3684932272455973470}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2789753031879121401, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &4140480240837851616
 GameObject:
   m_ObjectHideFlags: 0
@@ -1110,7 +1526,9 @@ GameObject:
   - component: {fileID: 4756573335731176346}
   - component: {fileID: 214919269763675669}
   - component: {fileID: 2330184509471367841}
-  m_Layer: 0
+  - component: {fileID: 8047207811168598810}
+  - component: {fileID: 2593432399122243490}
+  m_Layer: 8
   m_Name: wagon_sh_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1184,6 +1602,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &8047207811168598810
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4140480240837851616}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &2593432399122243490
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4140480240837851616}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4356749554564551569, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &4372240489315796540
 GameObject:
   m_ObjectHideFlags: 0
@@ -1195,7 +1643,9 @@ GameObject:
   - component: {fileID: 937117178424844653}
   - component: {fileID: 1450419025100951856}
   - component: {fileID: 5026365722779739671}
-  m_Layer: 0
+  - component: {fileID: 8555660672125582907}
+  - component: {fileID: 8321850761128756054}
+  m_Layer: 8
   m_Name: wagon_sh_17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1269,6 +1719,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &8555660672125582907
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4372240489315796540}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &8321850761128756054
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4372240489315796540}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4931560923539064962, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &4593984479683329639
 GameObject:
   m_ObjectHideFlags: 0
@@ -1280,7 +1760,9 @@ GameObject:
   - component: {fileID: 6989336807146347025}
   - component: {fileID: 3296844387823288378}
   - component: {fileID: 303718371853943978}
-  m_Layer: 0
+  - component: {fileID: 2832665483663317055}
+  - component: {fileID: 170005248315080937}
+  m_Layer: 8
   m_Name: wagon_sh_24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1353,6 +1835,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &2832665483663317055
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4593984479683329639}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &170005248315080937
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4593984479683329639}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6445139148811876563, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &5696464323800485189
 GameObject:
   m_ObjectHideFlags: 0
@@ -1364,7 +1876,9 @@ GameObject:
   - component: {fileID: 6930585886190641380}
   - component: {fileID: 4863638956695909877}
   - component: {fileID: 1632621224639553327}
-  m_Layer: 0
+  - component: {fileID: 4378633979950488227}
+  - component: {fileID: 638074503789832718}
+  m_Layer: 8
   m_Name: wagon_sh_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1438,6 +1952,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &4378633979950488227
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5696464323800485189}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &638074503789832718
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5696464323800485189}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3273284991841203801, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &6005486958236326082
 GameObject:
   m_ObjectHideFlags: 0
@@ -1449,7 +1993,9 @@ GameObject:
   - component: {fileID: 7719372328662717243}
   - component: {fileID: 308651544791287093}
   - component: {fileID: 4593776652131149524}
-  m_Layer: 0
+  - component: {fileID: 3927099795265597834}
+  - component: {fileID: 8734775789949697745}
+  m_Layer: 8
   m_Name: wagon_sh_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1522,6 +2068,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &3927099795265597834
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6005486958236326082}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &8734775789949697745
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6005486958236326082}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1153379358488304851, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &6065971024833037914
 GameObject:
   m_ObjectHideFlags: 0
@@ -1533,7 +2109,9 @@ GameObject:
   - component: {fileID: 5638012610272838979}
   - component: {fileID: 2939507648140709931}
   - component: {fileID: 7535120030519727360}
-  m_Layer: 0
+  - component: {fileID: 781857080944167409}
+  - component: {fileID: 8962756113477629166}
+  m_Layer: 8
   m_Name: wagon_sh_29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1607,6 +2185,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &781857080944167409
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6065971024833037914}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &8962756113477629166
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6065971024833037914}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2948515261006185590, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &6234741719031592857
 GameObject:
   m_ObjectHideFlags: 0
@@ -1616,6 +2224,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6759217099771473187}
+  - component: {fileID: 8194299341676222679}
+  - component: {fileID: 6024964150634723064}
+  - component: {fileID: 7029192680890244038}
+  - component: {fileID: 8562038094434184220}
+  - component: {fileID: 51837208703918416}
+  - component: {fileID: 5729947062575429086}
   m_Layer: 0
   m_Name: wagon_root
   m_TagString: Untagged
@@ -1630,9 +2244,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6234741719031592857}
-  m_LocalRotation: {x: -0.6351043, y: 0, z: -0, w: 0.7724264}
+  m_LocalRotation: {x: -0.63510144, y: 0, z: 0, w: 0.7724288}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalScale: {x: 8, y: 8, z: 8}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4756573335731176346}
@@ -1666,7 +2280,159 @@ Transform:
   - {fileID: 5638012610272838979}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -78.855, y: 0, z: 0}
+--- !u!54 &8194299341676222679
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6234741719031592857}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &6024964150634723064
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6234741719031592857}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.4907455, y: 3.656901, z: 3.481816}
+  m_Center: {x: -0.2630787, y: 0.19579785, z: 1.240909}
+--- !u!114 &7029192680890244038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6234741719031592857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da491ed0ed6abc4a8b84035d3e0fbba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _camera: {fileID: 51837208703918416}
+  _explosionParticl: {fileID: 0}
+  _fragments:
+  - {fileID: 8047207811168598810}
+  - {fileID: 5072408556454168648}
+  - {fileID: 2569485684938240424}
+  - {fileID: 6653983946789270966}
+  - {fileID: 5666668886817974835}
+  - {fileID: 9001021639787510369}
+  - {fileID: 400129907650793125}
+  - {fileID: 3774626229431826049}
+  - {fileID: 1861482878155898517}
+  - {fileID: 1482098454499683360}
+  - {fileID: 3626652457338103223}
+  - {fileID: 5942430855069520964}
+  - {fileID: 3927099795265597834}
+  - {fileID: 1222408183090901681}
+  - {fileID: 4956427667708087014}
+  - {fileID: 4378633979950488227}
+  - {fileID: 8555660672125582907}
+  - {fileID: 3672478511032992060}
+  - {fileID: 2962877121077468277}
+  - {fileID: 6424356928905285171}
+  - {fileID: 1188048914719474075}
+  - {fileID: 3382079305321446186}
+  - {fileID: 3897881951620241465}
+  - {fileID: 2832665483663317055}
+  - {fileID: 4134846450320972035}
+  - {fileID: 6252458186343925965}
+  - {fileID: 4211923050307691281}
+  - {fileID: 101528030329523747}
+  - {fileID: 781857080944167409}
+--- !u!114 &8562038094434184220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6234741719031592857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 764067bff3fdbb246840f099cbaf76ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _size: 2
+--- !u!114 &51837208703918416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6234741719031592857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fd75d2222dabc94cb77cf04c3373026, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _inpuls: 10
+--- !u!114 &5729947062575429086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6234741719031592857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 180ecf9b41d478f468eb3e9083753217, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ImpulseDefinition:
+    m_ImpulseChannel: 1
+    m_ImpulseShape: 2
+    m_CustomImpulseShape:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ImpulseDuration: 0.2
+    m_ImpulseType: 3
+    m_DissipationRate: 0.25
+    m_RawSignal: {fileID: 11400000, guid: 69ce8388f6785dd4c8c39915efece2f4, type: 2}
+    m_AmplitudeGain: 1
+    m_FrequencyGain: 1
+    m_RepeatMode: 0
+    m_Randomize: 1
+    m_TimeEnvelope:
+      m_AttackShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_DecayShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_AttackTime: 0
+      m_SustainTime: 0.2
+      m_DecayTime: 0.7
+      m_ScaleWithImpact: 1
+      m_HoldForever: 0
+    m_ImpactRadius: 100
+    m_DirectionMode: 0
+    m_DissipationMode: 2
+    m_DissipationDistance: 5
+    m_PropagationSpeed: 343
+  m_DefaultVelocity: {x: 0, y: -1, z: 0}
 --- !u!1 &7111978612660973694
 GameObject:
   m_ObjectHideFlags: 0
@@ -1678,7 +2444,9 @@ GameObject:
   - component: {fileID: 6219608247825345010}
   - component: {fileID: 1859799056342620146}
   - component: {fileID: 7833392186111901884}
-  m_Layer: 0
+  - component: {fileID: 400129907650793125}
+  - component: {fileID: 8288187847968979073}
+  m_Layer: 8
   m_Name: wagon_sh_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1752,6 +2520,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &400129907650793125
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7111978612660973694}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &8288187847968979073
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7111978612660973694}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1451376886307344685, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &7278028263423066268
 GameObject:
   m_ObjectHideFlags: 0
@@ -1763,7 +2561,9 @@ GameObject:
   - component: {fileID: 1189345965689866609}
   - component: {fileID: 5892930805206214510}
   - component: {fileID: 1306743439830883948}
-  m_Layer: 0
+  - component: {fileID: 1861482878155898517}
+  - component: {fileID: 3055194631990013791}
+  m_Layer: 8
   m_Name: wagon_sh_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1837,6 +2637,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &1861482878155898517
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7278028263423066268}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &3055194631990013791
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7278028263423066268}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3823208428977542649, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &7821268525732619849
 GameObject:
   m_ObjectHideFlags: 0
@@ -1848,7 +2678,9 @@ GameObject:
   - component: {fileID: 7947598172146844195}
   - component: {fileID: 7616067406320443775}
   - component: {fileID: 3803228703739200911}
-  m_Layer: 0
+  - component: {fileID: 2569485684938240424}
+  - component: {fileID: 3510537888837500323}
+  m_Layer: 8
   m_Name: wagon_sh_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1921,6 +2753,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &2569485684938240424
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7821268525732619849}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &3510537888837500323
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7821268525732619849}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1590872561090338915, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &8020169183477312480
 GameObject:
   m_ObjectHideFlags: 0
@@ -1932,7 +2794,9 @@ GameObject:
   - component: {fileID: 6268227440087614140}
   - component: {fileID: 7600628868100033991}
   - component: {fileID: 1346009408867022299}
-  m_Layer: 0
+  - component: {fileID: 6653983946789270966}
+  - component: {fileID: 4486279113837595931}
+  m_Layer: 8
   m_Name: wagon_sh_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2006,6 +2870,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &6653983946789270966
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8020169183477312480}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &4486279113837595931
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8020169183477312480}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8410266599644275176, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &8207114799034273869
 GameObject:
   m_ObjectHideFlags: 0
@@ -2017,7 +2911,9 @@ GameObject:
   - component: {fileID: 8931134328544186296}
   - component: {fileID: 9087024271725117396}
   - component: {fileID: 1115623267637162574}
-  m_Layer: 0
+  - component: {fileID: 3897881951620241465}
+  - component: {fileID: 5769229300059739432}
+  m_Layer: 8
   m_Name: wagon_sh_23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2091,6 +2987,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &3897881951620241465
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8207114799034273869}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &5769229300059739432
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8207114799034273869}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1618615811375133273, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &8597093302685083449
 GameObject:
   m_ObjectHideFlags: 0
@@ -2102,7 +3028,9 @@ GameObject:
   - component: {fileID: 5582702318480428086}
   - component: {fileID: 1810144944149265522}
   - component: {fileID: 4791056664617154999}
-  m_Layer: 0
+  - component: {fileID: 3774626229431826049}
+  - component: {fileID: 5947675368264973212}
+  m_Layer: 8
   m_Name: wagon_sh_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2176,6 +3104,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &3774626229431826049
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8597093302685083449}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &5947675368264973212
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8597093302685083449}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1278363366085274469, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &8717417858896647924
 GameObject:
   m_ObjectHideFlags: 0
@@ -2187,7 +3145,9 @@ GameObject:
   - component: {fileID: 5814734390330087665}
   - component: {fileID: 7768558281175531933}
   - component: {fileID: 8729384206784699135}
-  m_Layer: 0
+  - component: {fileID: 5666668886817974835}
+  - component: {fileID: 7447835204842585293}
+  m_Layer: 8
   m_Name: wagon_sh_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2260,6 +3220,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &5666668886817974835
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8717417858896647924}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &7447835204842585293
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8717417858896647924}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6804964404261766172, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &8773519691986203312
 GameObject:
   m_ObjectHideFlags: 0
@@ -2271,7 +3261,9 @@ GameObject:
   - component: {fileID: 9009226367309954791}
   - component: {fileID: 8056315308891194681}
   - component: {fileID: 8887239745841485724}
-  m_Layer: 0
+  - component: {fileID: 9001021639787510369}
+  - component: {fileID: 7551771777414790571}
+  m_Layer: 8
   m_Name: wagon_sh_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2345,6 +3337,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &9001021639787510369
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8773519691986203312}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &7551771777414790571
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8773519691986203312}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7710955836211026717, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &9000945506794747510
 GameObject:
   m_ObjectHideFlags: 0
@@ -2356,7 +3378,9 @@ GameObject:
   - component: {fileID: 3475635384438559412}
   - component: {fileID: 9091708013828732923}
   - component: {fileID: 1002721434471985403}
-  m_Layer: 0
+  - component: {fileID: 4956427667708087014}
+  - component: {fileID: 7881500252479133298}
+  m_Layer: 8
   m_Name: wagon_sh_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2430,6 +3454,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &4956427667708087014
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9000945506794747510}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &7881500252479133298
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9000945506794747510}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7448692762115483870, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}
 --- !u!1 &9014800181995385604
 GameObject:
   m_ObjectHideFlags: 0
@@ -2441,7 +3495,9 @@ GameObject:
   - component: {fileID: 736540285715240801}
   - component: {fileID: 9149741504125519139}
   - component: {fileID: 30631023642347189}
-  m_Layer: 0
+  - component: {fileID: 101528030329523747}
+  - component: {fileID: 9163878773964954917}
+  m_Layer: 8
   m_Name: wagon_sh_28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2514,3 +3570,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &101528030329523747
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9014800181995385604}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &9163878773964954917
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9014800181995385604}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3190039205078300465, guid: 2c97ae3136d231548b14d61ae70266a3, type: 3}

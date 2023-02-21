@@ -55,7 +55,6 @@ public class PhysicsMovement : MonoBehaviour
 
     public void IncreaseSpeed()
     {
-        Debug.Log("speed " + _skillSpeed.CountLevelSkills());
         _increaseSpeed += _skillSpeed.CountLevelSkills();
         currentSpeed = _speedForward * _increaseSpeed;
     }

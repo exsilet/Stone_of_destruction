@@ -1,3 +1,4 @@
+using Agava.YandexGames;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -9,6 +10,8 @@ public class PlayerMoney : MonoBehaviour
     [SerializeField] private int _moneyLevels;
     [SerializeField] private int _currentMoney;
     [SerializeField] private SaveLoadMoney _saveLoadMoney;
+    [SerializeField] private GameObject _advMoney;
+    [SerializeField] private int _rewardRete;
 
     public event UnityAction<int> MoneyChanged;
     public event UnityAction<int> CurrentMoneyChanged;
@@ -18,11 +21,6 @@ public class PlayerMoney : MonoBehaviour
     {
         _currentMoney = _saveLoadMoney.ReadMoney();
         CurrentMoneyChanged?.Invoke(_currentMoney);
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        Debug.Log(other.name);
     }
 
     public void IncreaseMoney(int value)
@@ -50,12 +48,23 @@ public class PlayerMoney : MonoBehaviour
 
     public void BuyUpgrade(Skill skills)
     {
-        Debug.Log("покупка обновления");
         if (_currentMoney > 0)
         {
             _currentMoney -= skills.Price;
             CurrentMoneyChanged?.Invoke(_currentMoney);
             _saveLoadMoney.SummMoney(_currentMoney);
         }
+    }
+
+    public void AddAdMoney()
+    {
+        VideoAd.Show(null, ADVMoney);
+    }
+
+    private void ADVMoney()
+    {
+        _moneyLevels *= _rewardRete;
+        MoneyChanged?.Invoke(_moneyLevels);
+        _advMoney.SetActive(false);
     }
 }
