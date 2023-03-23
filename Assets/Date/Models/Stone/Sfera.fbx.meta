@@ -3,7 +3,12 @@ guid: 6b7f89782fead9a4aa2d20c75eb853d8
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LavaMat
+    second: {fileID: 2100000, guid: 4ff1505c7dc93f145be2ec45a8883293, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

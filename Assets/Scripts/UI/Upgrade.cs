@@ -11,10 +11,10 @@ public class Upgrade : MonoBehaviour
 
     private Skill _skills;
 
-    private void Start()
-    {
-        IconUpgrade(_skills.UpgradeCount);
-    }
+    //private void Start()
+    //{
+    //    IconUpgrade(_skills.UpgradeCount);
+    //}
 
     public void Initialize(Skill skills)
     {

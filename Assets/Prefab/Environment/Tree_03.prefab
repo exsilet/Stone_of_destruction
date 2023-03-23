@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 8636118912422022040}
   - component: {fileID: 5488458664338073723}
   - component: {fileID: 3130306275903862205}
-  - component: {fileID: 8878698893680320026}
+  - component: {fileID: 5901006062206129413}
   - component: {fileID: 1877177583161236721}
+  - component: {fileID: 710377243634552635}
   m_Layer: 0
   m_Name: Tree_03
   m_TagString: Untagged
@@ -30,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 8663345207735365316}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -46.6, y: -141.9, z: 14.3}
-  m_LocalScale: {x: 7.1783237, y: 7.191519, z: 7.191519}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2513496026912019835}
@@ -65,9 +66,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2045345859530152674, guid: e376492d68e5c014282e1e59266c360e, type: 3}
-  - {fileID: -1345402770840007433, guid: e376492d68e5c014282e1e59266c360e, type: 3}
-  - {fileID: 2979143921612745558, guid: e376492d68e5c014282e1e59266c360e, type: 3}
+  - {fileID: 2100000, guid: 86cf30de359f7eb418e794fc9f723442, type: 2}
+  - {fileID: 2100000, guid: 3b95160a7aae4494c93b8cfcb0621b20, type: 2}
+  - {fileID: 2100000, guid: 1154573d43678734ba44ce0582312975, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -105,7 +106,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &8878698893680320026
+--- !u!65 &5901006062206129413
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,8 +117,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.5650263, y: 7.7993875, z: 4.0882893}
-  m_Center: {x: -0.7914903, y: 3.8996916, z: 0.0999351}
+  m_Size: {x: 27.828262, y: 69.57654, z: 33.7284}
+  m_Center: {x: -2.8722305, y: 34.78827, z: -0.0000004520414}
 --- !u!114 &1877177583161236721
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,10 +131,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1a0e7fb116166429686acdcdf6f27b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _forceValue: 19000
+  _forceValue: 35000
   _radius: 0.2
   _upwModifier: 1
   _explosionParticl: {fileID: 2319219536929408329}
+--- !u!114 &710377243634552635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8663345207735365316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0941820753b386e4997ecbefcf6c5fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _baseScore: 6
 --- !u!1001 &4048909288843093235
 PrefabInstance:
   m_ObjectHideFlags: 0

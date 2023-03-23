@@ -1300,6 +1300,7 @@ GameObject:
   - component: {fileID: 6985354409832380849}
   - component: {fileID: 3282591351641222289}
   - component: {fileID: 6917045188195360600}
+  - component: {fileID: 1085638656962225665}
   m_Layer: 0
   m_Name: civilian_house_40_b_root
   m_TagString: Untagged
@@ -1493,6 +1494,19 @@ MonoBehaviour:
     m_DissipationDistance: 5
     m_PropagationSpeed: 343
   m_DefaultVelocity: {x: 0, y: -1, z: 0}
+--- !u!114 &1085638656962225665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4984350980016288518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0941820753b386e4997ecbefcf6c5fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _baseScore: 12
 --- !u!1 &5690686465702972745
 GameObject:
   m_ObjectHideFlags: 0

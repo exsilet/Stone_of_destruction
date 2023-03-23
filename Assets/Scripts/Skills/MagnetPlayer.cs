@@ -6,7 +6,6 @@ public class MagnetPlayer : MonoBehaviour
 {
     [SerializeField] private float _radius;
     [SerializeField] private Skill _magnet;
-    [SerializeField] private SaveLoadSkills _saveLoadSkills;
     [SerializeField] private float _normalizeRadius;
     [SerializeField] private float _averageValue;
 
@@ -20,7 +19,7 @@ public class MagnetPlayer : MonoBehaviour
         IncreaseRadius();
     }
 
-    public void IncreaseRadius()
+    private void IncreaseRadius()
     {
         _radius += _magnet.CountLevelSkills();
 

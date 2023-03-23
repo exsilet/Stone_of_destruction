@@ -1,10 +1,10 @@
 using UnityEngine;
-using IJunior.TypedScenes;
+using UnityEngine.SceneManagement;
 
 public class RestarGame : MonoBehaviour
 {
-    public void LoadScene()
+    public void LoadScene(int sceneId)
     {
-        GameScene.Load();
+        SceneManager.LoadScene(sceneId);
     }
 }

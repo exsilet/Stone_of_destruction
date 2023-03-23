@@ -2,17 +2,14 @@ using UnityEngine;
 
 public class ColisionHendler : MonoBehaviour
 {
-    [SerializeField] private PlayerMoney player;
-    [SerializeField] private GameObject _restartLevels;
-    [SerializeField] private GameObject _advMoney;
+    [SerializeField] private PlayerMoney _player;
+    [SerializeField] private EndLevels _endLevels;
 
     private int currentFactor;
     private float currentScale;
 
     private void Start()
     {
-        _advMoney.SetActive(false);
-        _restartLevels.SetActive(true);
         currentScale = transform.localScale.x;
     }
 
@@ -30,14 +27,12 @@ public class ColisionHendler : MonoBehaviour
 
         if (other.gameObject.TryGetComponent(out FactorMoney factorMoney))
         {
-            _advMoney.SetActive(true);
-            _restartLevels.SetActive(false);
-
+            _endLevels.SetCollision();
             currentFactor += (int)factorMoney.Factor;
 
             if (transform.localScale.x < currentScale)
             {
-                player.FactorMoney(currentFactor);
+                _player.FactorMoney(currentFactor);
             }
         }
 

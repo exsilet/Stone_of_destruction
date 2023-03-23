@@ -1,26 +1,25 @@
-using IJunior.TypedScenes;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class TapToStart : MonoBehaviour
 {
-    //[SerializeField] private GameObject _panel;
+    [SerializeField] private GameObject _panelMenu;
+    [SerializeField] private Transform _PanelLevelGame;
 
-    //private void Start()
-    //{
-    //    Time.timeScale = 0;
-    //    _panel.SetActive(true);
-    //}
-
-    //public void StartLevels()
-    //{
-    //    Time.timeScale = 1;
-    //    _panel.SetActive(false);
-    //}
-
-    public void StartLevels()
+    private void Start()
     {
-        GameScene.Load();
+        _panelMenu.SetActive(true);
+        _PanelLevelGame.gameObject.SetActive(false);
+    }
+
+    public void OpenPanel(GameObject panel)
+    {
+        panel.SetActive(true);
+        _panelMenu.SetActive(false);
+    }
+    
+    public void ClosePanel(GameObject panel)
+    {
+        panel.SetActive(false);
+        _panelMenu.SetActive(true);
     }
 }

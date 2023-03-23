@@ -6,31 +6,27 @@ using Agava.YandexGames;
 public class YandexLeaderboard : MonoBehaviour
 {
     [SerializeField] private LeaderboardElement[] _liderboars;
+    [SerializeField] private Transform _langues;
     [SerializeField] private Transform _leaderBoard;
     [SerializeField] private Transform _listleaderBoard;
     [SerializeField] private Transform _notLogin;
-    [SerializeField] private WaveCounter _waveCounter;
+    [SerializeField] private SaveLoadScore _score;
     [SerializeField] private Converter _converter;
-    [SerializeField] private int score;
     [SerializeField] private int _topPlayersCount = 3;
     [SerializeField] private int _competingPlayersCount = 5;
 
     private const string WavesLeader = "Leader";
     private const string Anonymous = "Anonymous";
 
-    //private void OnEnable()
-    //{
-    //    _waveCounter.WaveComplite += SetScore;
-    //}
-
-    //private void OnDisable()
-    //{
-    //    _waveCounter.WaveComplite -= SetScore;
-    //}
+    private void Start()
+    {
+        SetScore(_score.ReadScore());
+    }
 
     public void Show()
     {
         _leaderBoard.gameObject.SetActive(true);
+        _langues.gameObject.SetActive(false);
 
 #if !UNITY_EDITOR
 
@@ -39,14 +35,14 @@ public class YandexLeaderboard : MonoBehaviour
             _listleaderBoard.gameObject.SetActive(true);
             _notLogin.gameObject.SetActive(false);
 
-            PlayerAccount.RequestPersonalProfileDataPermission(()=> {
-                Leaderboard.SetScore(WavesLeader, 5);
-            });
+            PlayerAccount.RequestPersonalProfileDataPermission();
 
             Leaderboard.GetEntries(WavesLeader, (result) =>
             {
                 for (int i = 0; i < result.entries.Length; i++)
                 {
+                    //if(result.entries[i] != null)
+
                     var entry = result.entries[i];
 
                     string name = entry.player.publicName;
@@ -62,6 +58,7 @@ public class YandexLeaderboard : MonoBehaviour
         {
             _notLogin.gameObject.SetActive(true);
             _listleaderBoard.gameObject.SetActive(false);
+            _langues.gameObject.SetActive(false);
 
         }
 #endif
@@ -74,15 +71,12 @@ public class YandexLeaderboard : MonoBehaviour
 #endif
     }
 
-    private void SetScore()
+    public void SetScore(int scoreEmaunt)
     {
 #if !UNITY_EDITOR
         if (PlayerAccount.IsAuthorized)
         {
-            if (PlayerAccount.HasPersonalProfileDataPermission)
-            {
-                Leaderboard.SetScore(WavesLeader, score);
-            }
+            Leaderboard.SetScore(WavesLeader, scoreEmaunt);
         }
 #endif
     }
@@ -90,6 +84,7 @@ public class YandexLeaderboard : MonoBehaviour
     public void OnClosetButtonClick()
     {
         _leaderBoard.gameObject.SetActive(false);
+        _langues.gameObject.SetActive(true);
 
         for (int i = 0; i < _liderboars.Length; i++)
         {

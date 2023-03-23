@@ -7,11 +7,13 @@ public class OpenSkinPlayer : MonoBehaviour
     [SerializeField] private Transform _panelMenu;
     [SerializeField] private Transform _panelStart;
     [SerializeField] private Transform _panelSkin;
+    [SerializeField] private Transform _langues;
 
     private void Start()
     {
         _panelStart.gameObject.SetActive(true);
         _panelMenu.gameObject.SetActive(true);
+        _langues.gameObject.SetActive(true);
         _panelSkin.gameObject.SetActive(false);
     }
 
@@ -20,6 +22,7 @@ public class OpenSkinPlayer : MonoBehaviour
         panel.SetActive(true);
         _panelMenu.gameObject.SetActive(false);
         _panelStart.gameObject.SetActive(false);
+        _langues.gameObject.SetActive(false);
     }
 
     public void ClosePanel(GameObject panel)
@@ -27,5 +30,6 @@ public class OpenSkinPlayer : MonoBehaviour
         panel.SetActive(false);
         _panelMenu.gameObject.SetActive(true);
         _panelStart.gameObject.SetActive(true);
+        _langues.gameObject.SetActive(true);
     }
 }

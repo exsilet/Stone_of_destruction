@@ -4,12 +4,12 @@ using UnityEngine;
 public class Shop : MonoBehaviour
 {
     [SerializeField] private List<Skill> _skillPrefabs;
-    [SerializeField] private SkillView _skillViewPrefab;
-    [SerializeField] private GameObject _itemContainer;
-    [SerializeField] private Upgrade _buttonUpgrade;
-    [SerializeField] private SaveLoadMoney _loadPlayerMoney;
+    //[SerializeField] private SkillView _skillViewPrefab;
+    //[SerializeField] private GameObject _itemContainer;
     [SerializeField] private PlayerMoney _playerMoney;
     [SerializeField] private SaveLoadSkills _saveLoadSkills;
+
+    [SerializeField] private List<SkillView> _skillViewPrefab;
 
     private int currentCostOfGold;
     private List<SkillView> _skillViews = new List<SkillView>();
@@ -20,9 +20,12 @@ public class Shop : MonoBehaviour
     {
         for (int i = 0; i < _skillPrefabs.Count; i++)
         {
-            SkillView view = Instantiate(_skillViewPrefab, _itemContainer.transform);
-            _skillViews.Add(view);
-            view.Initialize(_skillPrefabs[i]);
+            //SkillView view = Instantiate(_skillViewPrefab, _itemContainer.transform);
+            //_skillViews.Add(view);
+            //view.Initialize(_skillPrefabs[i]);
+
+            _skillViews.Add(_skillViewPrefab[i]);
+            _skillViewPrefab[i].Initialize(_skillPrefabs[i]);
         }
 
         foreach (var skill in _skillPrefabs)

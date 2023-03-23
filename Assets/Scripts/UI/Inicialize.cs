@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -7,6 +8,17 @@ using Agava.YandexGames;
 public class Inicialize : MonoBehaviour
 {
     private const int nameScene = 1;
+    private const int textureQualityMobile = 2;
+    private const int textureQuality = 8;
+    
+
+    private void Start()
+    {
+        if (Application.isMobilePlatform)
+            RenderTexture.active.antiAliasing = textureQualityMobile;
+        else
+            RenderTexture.active.antiAliasing = textureQuality;
+    }
 
     private void Awake()
     {

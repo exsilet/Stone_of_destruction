@@ -2389,6 +2389,7 @@ GameObject:
   - component: {fileID: 8260811199435804204}
   - component: {fileID: 8260811199435804203}
   - component: {fileID: 9107727420177768775}
+  - component: {fileID: 543450652696227675}
   m_Layer: 0
   m_Name: civilian_house_38_e_root2
   m_TagString: Untagged
@@ -2574,3 +2575,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _size: 2
+--- !u!114 &543450652696227675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9107727420177768793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0941820753b386e4997ecbefcf6c5fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _baseScore: 12

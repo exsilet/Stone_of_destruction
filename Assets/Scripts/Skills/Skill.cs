@@ -2,12 +2,13 @@ using Lean.Localization;
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Skill : MonoBehaviour
 {
     [SerializeField] private Sprite _icon;
-    [SerializeField] private string _label;
-    [SerializeField] private string _description;
+    [SerializeField] private LeanPhrase _phrase;
+    [SerializeField] private LeanPhrase _phraseDescrition;
     [SerializeField] private int _basePrice;
     [SerializeField] private float _baseCoffecient;
     [SerializeField] private int _upgradeLimit = 6;
@@ -17,8 +18,10 @@ public class Skill : MonoBehaviour
 
     public int UpgradeCount = 0;
     public Sprite Icon => _icon;
-    public string Label => _label;
-    public string Descrition => _description;
+    public string Label => LeanLocalization.GetTranslationText(_phrase.name);
+
+    public string Descrition => LeanLocalization.GetTranslationText(_phraseDescrition.name);
+
     public float UpgradeLimit => _upgradeLimit;
     public int Price
     {
@@ -67,7 +70,6 @@ public class Skill : MonoBehaviour
 
     public float CountLevelSkills()
     {
-        Debug.Log(UpgradeCount > 0 ? _baseCoffecient * (float)UpgradeCount : 0);
         return UpgradeCount > 0 ? _baseCoffecient * UpgradeCount : 0;
     }
 }

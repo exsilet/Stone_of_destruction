@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1666782504}
-  - component: {fileID: 1666782505}
-  - component: {fileID: 55067796}
   - component: {fileID: 55067797}
+  - component: {fileID: 55067796}
+  - component: {fileID: 1666782505}
   m_Layer: 10
   m_Name: MagnetPlayer
   m_TagString: Untagged
@@ -34,23 +34,19 @@ Transform:
   m_Father: {fileID: 3266695524074673356}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1666782505
-MonoBehaviour:
+--- !u!135 &55067797
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1666782503}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a730f90da9006de4e8c442a01a517e64, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _radius: 10
-  _magnet: {fileID: 4943711192722415510}
-  _saveLoadSkills: {fileID: 0}
-  _normalizeRadius: 10
-  _averageValue: 0.25
+  serializedVersion: 2
+  m_Radius: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!54 &55067796
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -67,19 +63,22 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!135 &55067797
-SphereCollider:
+--- !u!114 &1666782505
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1666782503}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a730f90da9006de4e8c442a01a517e64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _radius: 10
+  _magnet: {fileID: 4943711192722415510}
+  _normalizeRadius: 10
+  _averageValue: 0.25
 --- !u!1 &3266695524074673369
 GameObject:
   m_ObjectHideFlags: 0
@@ -98,6 +97,8 @@ GameObject:
   - component: {fileID: 3266695524074673348}
   - component: {fileID: 3266695524074673371}
   - component: {fileID: 3266695524074673370}
+  - component: {fileID: 3266695522726971546}
+  - component: {fileID: 3266695522726971552}
   m_Layer: 10
   m_Name: Player
   m_TagString: Untagged
@@ -234,9 +235,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7f17fd6770e9ac4b9d841395f0e753b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 3266695524074673350}
-  _restartLevels: {fileID: 0}
-  _advMoney: {fileID: 0}
+  _player: {fileID: 3266695524074673350}
+  _endLevels: {fileID: 0}
 --- !u!114 &3266695524074673348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -262,10 +262,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rigidbody: {fileID: 3266695524074673344}
-  _surfaceSlider: {fileID: 3266695524074673348}
-  _speedDisplacement: 50
   _rotationSpeed: 200000
-  _gravity: -150
+  _gravity: 5
   _speedForward: 150
   _speedHorizontal: 100
   _skillSpeed: {fileID: 2666951822734467350}
@@ -285,6 +283,33 @@ MonoBehaviour:
   _movement: {fileID: 3266695524074673371}
   _speedForward: 1
   _joystick: {fileID: 0}
+--- !u!114 &3266695522726971546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3266695524074673369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87df079a9306b414c96bcfb382083415, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _wave: {fileID: 0}
+--- !u!114 &3266695522726971552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3266695524074673369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ffbc55e90ccb7c48ac2f5ccef47c648, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _wave: {fileID: 0}
+  _coffecient: 10
 --- !u!1001 &3266695522076311832
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -349,9 +374,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1648749441035733167, guid: c24f696390930c74aa78e6ddde43df17, type: 3}
+      propertyPath: _phrase
+      value: 
+      objectReference: {fileID: 5136745224612616456, guid: 4915977dd5f4b8a42b6150d9c4906af6, type: 3}
+    - target: {fileID: 1648749441035733167, guid: c24f696390930c74aa78e6ddde43df17, type: 3}
       propertyPath: _saveLoadSkills
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1696548491204130613, guid: 22a2a8aae8e1ff646bd2167fe46bbc38, type: 3}
+    - target: {fileID: 1648749441035733167, guid: c24f696390930c74aa78e6ddde43df17, type: 3}
+      propertyPath: _phraseDescrition
+      value: 
+      objectReference: {fileID: 3688801174122066611, guid: 3816f398842fdee4f988160878d66cc7, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c24f696390930c74aa78e6ddde43df17, type: 3}
 --- !u!4 &2399775219237273658 stripped
@@ -434,9 +467,17 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7624089931395852342, guid: 259716d7738c47648aae1536f3fb638f, type: 3}
+      propertyPath: _phrase
+      value: 
+      objectReference: {fileID: 6025800775338911962, guid: 9fe56617d12708942afb29352210e932, type: 3}
+    - target: {fileID: 7624089931395852342, guid: 259716d7738c47648aae1536f3fb638f, type: 3}
       propertyPath: _saveLoadSkills
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1696548491204130613, guid: 22a2a8aae8e1ff646bd2167fe46bbc38, type: 3}
+    - target: {fileID: 7624089931395852342, guid: 259716d7738c47648aae1536f3fb638f, type: 3}
+      propertyPath: _phraseDescrition
+      value: 
+      objectReference: {fileID: 2759620563734057833, guid: 02e3e4d557858224bbe1a71f85c46a14, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 259716d7738c47648aae1536f3fb638f, type: 3}
 --- !u!4 &1324675627534120541 stripped
@@ -519,9 +560,17 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8488898623536520365, guid: ac41c6c0ccb29784c8c13e929982deee, type: 3}
+      propertyPath: _phrase
+      value: 
+      objectReference: {fileID: 2305196354500015354, guid: 39d12d6c1d0e8f8449a476ad5950fd43, type: 3}
+    - target: {fileID: 8488898623536520365, guid: ac41c6c0ccb29784c8c13e929982deee, type: 3}
       propertyPath: _saveLoadSkills
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1696548491204130613, guid: 22a2a8aae8e1ff646bd2167fe46bbc38, type: 3}
+    - target: {fileID: 8488898623536520365, guid: ac41c6c0ccb29784c8c13e929982deee, type: 3}
+      propertyPath: _phraseDescrition
+      value: 
+      objectReference: {fileID: 5499286627195427382, guid: 4fa6edce879d4c24ca2c36ac71278e20, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac41c6c0ccb29784c8c13e929982deee, type: 3}
 --- !u!4 &6384699195631287582 stripped
@@ -537,9 +586,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 3266695524074673356}
     m_Modifications:
     - target: {fileID: 601029099779837080, guid: d47b00d8e919d3149915117dc4c57c2d, type: 3}
+      propertyPath: _phrase
+      value: 
+      objectReference: {fileID: 780497487459759415, guid: e1de557080151434e9f591bc6aec1dcf, type: 3}
+    - target: {fileID: 601029099779837080, guid: d47b00d8e919d3149915117dc4c57c2d, type: 3}
       propertyPath: _saveLoadSkills
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1696548491204130613, guid: 22a2a8aae8e1ff646bd2167fe46bbc38, type: 3}
+    - target: {fileID: 601029099779837080, guid: d47b00d8e919d3149915117dc4c57c2d, type: 3}
+      propertyPath: _phraseDescrition
+      value: 
+      objectReference: {fileID: 1307830912901939172, guid: a84270287ca625844968b257d5106996, type: 3}
     - target: {fileID: 601029099779837081, guid: d47b00d8e919d3149915117dc4c57c2d, type: 3}
       propertyPath: m_RootOrder
       value: 5

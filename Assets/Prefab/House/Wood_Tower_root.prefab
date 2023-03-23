@@ -11,7 +11,9 @@ GameObject:
   - component: {fileID: 5959866368587518806}
   - component: {fileID: 4300971559816069601}
   - component: {fileID: 2438253237924793303}
-  m_Layer: 0
+  - component: {fileID: 1496435171}
+  - component: {fileID: 1496435170}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86,6 +88,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &1496435171
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592297393558342933}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1496435170
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592297393558342933}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8943787541970793108, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &748637061154842390
 GameObject:
   m_ObjectHideFlags: 0
@@ -97,7 +129,9 @@ GameObject:
   - component: {fileID: 5664282743124825579}
   - component: {fileID: 9082487700568394452}
   - component: {fileID: 3867344379983241014}
-  m_Layer: 0
+  - component: {fileID: 96122336}
+  - component: {fileID: 96122335}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,6 +205,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &96122336
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748637061154842390}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &96122335
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748637061154842390}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2320309986085727842, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &982272220625904087
 GameObject:
   m_ObjectHideFlags: 0
@@ -182,7 +246,9 @@ GameObject:
   - component: {fileID: 3419243328087638916}
   - component: {fileID: 8670206877887837804}
   - component: {fileID: 6495439201193225137}
-  m_Layer: 0
+  - component: {fileID: 1605004534}
+  - component: {fileID: 1605004533}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -257,6 +323,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &1605004534
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982272220625904087}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1605004533
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982272220625904087}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 8029127012024358688, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &1174252286687667478
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,7 +364,9 @@ GameObject:
   - component: {fileID: 8291907845119934509}
   - component: {fileID: 7473219668557281568}
   - component: {fileID: 1885018562531245102}
-  m_Layer: 0
+  - component: {fileID: 759944910}
+  - component: {fileID: 759944909}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -340,6 +438,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &759944910
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174252286687667478}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &759944909
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174252286687667478}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1047999059988033683, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &1590631161714704992
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,7 +479,9 @@ GameObject:
   - component: {fileID: 7360905007400855081}
   - component: {fileID: 4069431602425593983}
   - component: {fileID: 6660912533329389786}
-  m_Layer: 0
+  - component: {fileID: 1705940186}
+  - component: {fileID: 1705940185}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -425,6 +555,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &1705940186
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590631161714704992}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1705940185
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590631161714704992}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -924292026745433340, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &1983604020902904467
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,7 +596,9 @@ GameObject:
   - component: {fileID: 1705553956099775801}
   - component: {fileID: 6210340320543677155}
   - component: {fileID: 3195941873409991054}
-  m_Layer: 0
+  - component: {fileID: 332639239}
+  - component: {fileID: 332639238}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -509,6 +671,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &332639239
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983604020902904467}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &332639238
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983604020902904467}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -4155181248687299913, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &1994595167956994909
 GameObject:
   m_ObjectHideFlags: 0
@@ -520,7 +712,9 @@ GameObject:
   - component: {fileID: 5274887207878482165}
   - component: {fileID: 3324093414226754871}
   - component: {fileID: 6004128482771939492}
-  m_Layer: 0
+  - component: {fileID: 81638366}
+  - component: {fileID: 81638365}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -595,6 +789,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &81638366
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994595167956994909}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &81638365
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994595167956994909}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9103328050395523013, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &2012205237350506787
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,7 +830,9 @@ GameObject:
   - component: {fileID: 1502656971376252633}
   - component: {fileID: 8966698250026525484}
   - component: {fileID: 195877011163769890}
-  m_Layer: 0
+  - component: {fileID: 1916366627}
+  - component: {fileID: 1916366626}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -678,6 +904,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &1916366627
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012205237350506787}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1916366626
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012205237350506787}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3679832401578336675, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &2075306304656471811
 GameObject:
   m_ObjectHideFlags: 0
@@ -689,7 +945,9 @@ GameObject:
   - component: {fileID: 8196859330571769939}
   - component: {fileID: 7490058244261657250}
   - component: {fileID: 5917525486615812237}
-  m_Layer: 0
+  - component: {fileID: 23320856}
+  - component: {fileID: 23320855}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -762,6 +1020,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &23320856
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075306304656471811}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &23320855
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2075306304656471811}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2806564902203513486, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &2239743170966542764
 GameObject:
   m_ObjectHideFlags: 0
@@ -773,7 +1061,9 @@ GameObject:
   - component: {fileID: 5857657720135965777}
   - component: {fileID: 17122363987370757}
   - component: {fileID: 8165879600101620022}
-  m_Layer: 0
+  - component: {fileID: 756252708}
+  - component: {fileID: 756252707}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -846,6 +1136,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &756252708
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2239743170966542764}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &756252707
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2239743170966542764}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -1275913490309973505, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &2262500609325688284
 GameObject:
   m_ObjectHideFlags: 0
@@ -857,7 +1177,9 @@ GameObject:
   - component: {fileID: 3321262378690270938}
   - component: {fileID: 553994976008027989}
   - component: {fileID: 4440028298884826356}
-  m_Layer: 0
+  - component: {fileID: 1360480401}
+  - component: {fileID: 1360480400}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -931,6 +1253,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &1360480401
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2262500609325688284}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1360480400
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2262500609325688284}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2332447205537984699, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &3609075530206016176
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,7 +1294,9 @@ GameObject:
   - component: {fileID: 7014379251982799843}
   - component: {fileID: 7530793957345999277}
   - component: {fileID: 2505796878130728892}
-  m_Layer: 0
+  - component: {fileID: 1994359833}
+  - component: {fileID: 1994359832}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1015,6 +1369,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &1994359833
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3609075530206016176}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1994359832
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3609075530206016176}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6381097700802470067, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &4003260403408395664
 GameObject:
   m_ObjectHideFlags: 0
@@ -1026,7 +1410,9 @@ GameObject:
   - component: {fileID: 8746466872530131911}
   - component: {fileID: 7428636183375248482}
   - component: {fileID: 616687532570269793}
-  m_Layer: 0
+  - component: {fileID: 208132932}
+  - component: {fileID: 208132931}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1101,6 +1487,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &208132932
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4003260403408395664}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &208132931
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4003260403408395664}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4368664619412738201, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &4172633775517420926
 GameObject:
   m_ObjectHideFlags: 0
@@ -1112,7 +1528,9 @@ GameObject:
   - component: {fileID: 5505134061335501882}
   - component: {fileID: 3849977397176032141}
   - component: {fileID: 1877422992002347603}
-  m_Layer: 0
+  - component: {fileID: 2001981047}
+  - component: {fileID: 2001981046}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1186,6 +1604,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &2001981047
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4172633775517420926}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &2001981046
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4172633775517420926}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 1879765419850944939, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &4534301952198318786
 GameObject:
   m_ObjectHideFlags: 0
@@ -1197,7 +1645,9 @@ GameObject:
   - component: {fileID: 5173283931497667352}
   - component: {fileID: 8401252699335122709}
   - component: {fileID: 4660489187834020123}
-  m_Layer: 0
+  - component: {fileID: 1165554276}
+  - component: {fileID: 1165554275}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1271,6 +1721,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &1165554276
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4534301952198318786}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1165554275
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4534301952198318786}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 98078384413994585, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &5604233325303228478
 GameObject:
   m_ObjectHideFlags: 0
@@ -1282,7 +1762,9 @@ GameObject:
   - component: {fileID: 2668492309241783037}
   - component: {fileID: 3632112679297240582}
   - component: {fileID: 1248437782333078791}
-  m_Layer: 0
+  - component: {fileID: 1600530605}
+  - component: {fileID: 1600530604}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1355,6 +1837,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &1600530605
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5604233325303228478}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1600530604
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5604233325303228478}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4016426079570832353, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &5872113698747757516
 GameObject:
   m_ObjectHideFlags: 0
@@ -1366,7 +1878,9 @@ GameObject:
   - component: {fileID: 5177559765419931404}
   - component: {fileID: 4202518294363133332}
   - component: {fileID: 2406997390954671163}
-  m_Layer: 0
+  - component: {fileID: 201629909}
+  - component: {fileID: 201629908}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1441,6 +1955,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &201629909
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5872113698747757516}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &201629908
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5872113698747757516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8141538327344782598, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &5943278226353914610
 GameObject:
   m_ObjectHideFlags: 0
@@ -1452,7 +1996,9 @@ GameObject:
   - component: {fileID: 467075394640588928}
   - component: {fileID: 9097404337074396688}
   - component: {fileID: 6860035935407468518}
-  m_Layer: 0
+  - component: {fileID: 206311433}
+  - component: {fileID: 206311432}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1526,6 +2072,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &206311433
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5943278226353914610}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &206311432
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5943278226353914610}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2044582745890211641, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &6255334276967498647
 GameObject:
   m_ObjectHideFlags: 0
@@ -1537,7 +2113,9 @@ GameObject:
   - component: {fileID: 4002661868962517829}
   - component: {fileID: 5828794300231395970}
   - component: {fileID: 8100963728402079643}
-  m_Layer: 0
+  - component: {fileID: 889066543}
+  - component: {fileID: 889066542}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1609,6 +2187,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &889066543
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6255334276967498647}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &889066542
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6255334276967498647}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3482582648825107202, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &6369297836076970086
 GameObject:
   m_ObjectHideFlags: 0
@@ -1620,7 +2228,9 @@ GameObject:
   - component: {fileID: 121969236005091455}
   - component: {fileID: 6784160599824505550}
   - component: {fileID: 8583999515449830625}
-  m_Layer: 0
+  - component: {fileID: 258876577}
+  - component: {fileID: 258876576}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1693,6 +2303,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &258876577
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6369297836076970086}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &258876576
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6369297836076970086}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8494408865031815169, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &6752273367500177068
 GameObject:
   m_ObjectHideFlags: 0
@@ -1704,7 +2344,9 @@ GameObject:
   - component: {fileID: 1281158217445982886}
   - component: {fileID: 8691263009812499391}
   - component: {fileID: 3751962765020559218}
-  m_Layer: 0
+  - component: {fileID: 915873030}
+  - component: {fileID: 915873029}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1778,6 +2420,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &915873030
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6752273367500177068}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &915873029
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6752273367500177068}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5028517272015019898, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &6787511718603300109
 GameObject:
   m_ObjectHideFlags: 0
@@ -1789,7 +2461,9 @@ GameObject:
   - component: {fileID: 1371341835344569052}
   - component: {fileID: 4343134904903730561}
   - component: {fileID: 4946198275702702183}
-  m_Layer: 0
+  - component: {fileID: 697985826}
+  - component: {fileID: 697985825}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1862,6 +2536,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &697985826
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6787511718603300109}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &697985825
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6787511718603300109}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 9171059654872289669, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &6808098612541840182
 GameObject:
   m_ObjectHideFlags: 0
@@ -1873,7 +2577,9 @@ GameObject:
   - component: {fileID: 4153786942752317530}
   - component: {fileID: 498452108261944701}
   - component: {fileID: 5683066205804038121}
-  m_Layer: 0
+  - component: {fileID: 484990978}
+  - component: {fileID: 484990977}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1946,6 +2652,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &484990978
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6808098612541840182}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &484990977
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6808098612541840182}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5280816008776598472, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &6856668681346488671
 GameObject:
   m_ObjectHideFlags: 0
@@ -1957,7 +2693,9 @@ GameObject:
   - component: {fileID: 6727775993666878260}
   - component: {fileID: 104949217877114307}
   - component: {fileID: 7414677430898760957}
-  m_Layer: 0
+  - component: {fileID: 627517003}
+  - component: {fileID: 627517002}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2030,6 +2768,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &627517003
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6856668681346488671}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &627517002
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6856668681346488671}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2578586793147066832, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &7219826581181309066
 GameObject:
   m_ObjectHideFlags: 0
@@ -2041,7 +2809,9 @@ GameObject:
   - component: {fileID: 4304847263103544908}
   - component: {fileID: 1068404764699490964}
   - component: {fileID: 2769479936497761205}
-  m_Layer: 0
+  - component: {fileID: 872992532}
+  - component: {fileID: 872992531}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2114,6 +2884,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &872992532
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7219826581181309066}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &872992531
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7219826581181309066}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 6742727521488100442, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &7235231608938332065
 GameObject:
   m_ObjectHideFlags: 0
@@ -2125,7 +2925,9 @@ GameObject:
   - component: {fileID: 6872593139649647111}
   - component: {fileID: 8314803139305355286}
   - component: {fileID: 6704797863085498623}
-  m_Layer: 0
+  - component: {fileID: 1177284152}
+  - component: {fileID: 1177284151}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2198,6 +3000,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &1177284152
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7235231608938332065}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1177284151
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7235231608938332065}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8896410254758015068, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &7840720110534872689
 GameObject:
   m_ObjectHideFlags: 0
@@ -2209,7 +3041,9 @@ GameObject:
   - component: {fileID: 1973265837355504825}
   - component: {fileID: 6533333093647526429}
   - component: {fileID: 8079012434928410868}
-  m_Layer: 0
+  - component: {fileID: 559066383}
+  - component: {fileID: 559066382}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2281,6 +3115,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &559066383
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7840720110534872689}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &559066382
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7840720110534872689}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8718191706744445705, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &8593891504398648669
 GameObject:
   m_ObjectHideFlags: 0
@@ -2292,7 +3156,9 @@ GameObject:
   - component: {fileID: 1794630237213269858}
   - component: {fileID: 9024362798706900101}
   - component: {fileID: 4201539705992384934}
-  m_Layer: 0
+  - component: {fileID: 686210341}
+  - component: {fileID: 686210340}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2365,6 +3231,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &686210341
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8593891504398648669}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &686210340
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8593891504398648669}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -7221861330597117937, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &8649408998298834093
 GameObject:
   m_ObjectHideFlags: 0
@@ -2376,7 +3272,9 @@ GameObject:
   - component: {fileID: 8092847758718566824}
   - component: {fileID: 4680097922423275888}
   - component: {fileID: 1795279923939053257}
-  m_Layer: 0
+  - component: {fileID: 108096115}
+  - component: {fileID: 108096114}
+  m_Layer: 8
   m_Name: Wood_Tower_sh_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2450,6 +3348,36 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!54 &108096115
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8649408998298834093}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &108096114
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8649408998298834093}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -8717566135095729346, guid: f9cb4177ed7121a46a9d2f17182ef0ec, type: 3}
 --- !u!1 &8932104225735132242
 GameObject:
   m_ObjectHideFlags: 0
@@ -2459,6 +3387,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8124183479018921704}
+  - component: {fileID: 898707175}
+  - component: {fileID: 898707174}
+  - component: {fileID: 898707170}
+  - component: {fileID: 898707171}
+  - component: {fileID: 898707172}
+  - component: {fileID: 898707173}
+  - component: {fileID: 3574482793149011245}
   m_Layer: 0
   m_Name: Wood_Tower_root
   m_TagString: Untagged
@@ -2473,9 +3408,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8932104225735132242}
-  m_LocalRotation: {x: 0.1224578, y: 0, z: -0, w: 0.9924737}
+  m_LocalRotation: {x: 0.122458234, y: 0, z: 0, w: 0.99247366}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 7, y: 7, z: 7}
+  m_LocalScale: {x: 9, y: 9, z: 9}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5959866368587518806}
@@ -2509,4 +3444,169 @@ Transform:
   - {fileID: 1502656971376252633}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 14.068, y: 0, z: 0}
+--- !u!54 &898707175
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8932104225735132242}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &898707174
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8932104225735132242}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.557586, y: 7.26989, z: 4.3777146}
+  m_Center: {x: -0.065158844, y: 3.134947, z: 0.5553102}
+--- !u!114 &898707170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8932104225735132242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 180ecf9b41d478f468eb3e9083753217, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ImpulseDefinition:
+    m_ImpulseChannel: 1
+    m_ImpulseShape: 2
+    m_CustomImpulseShape:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ImpulseDuration: 0.2
+    m_ImpulseType: 3
+    m_DissipationRate: 0.25
+    m_RawSignal: {fileID: 11400000, guid: 69ce8388f6785dd4c8c39915efece2f4, type: 2}
+    m_AmplitudeGain: 1
+    m_FrequencyGain: 1
+    m_RepeatMode: 0
+    m_Randomize: 1
+    m_TimeEnvelope:
+      m_AttackShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_DecayShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_AttackTime: 0
+      m_SustainTime: 0.2
+      m_DecayTime: 0.7
+      m_ScaleWithImpact: 1
+      m_HoldForever: 0
+    m_ImpactRadius: 100
+    m_DirectionMode: 0
+    m_DissipationMode: 2
+    m_DissipationDistance: 5
+    m_PropagationSpeed: 343
+  m_DefaultVelocity: {x: 0, y: -1, z: 0}
+--- !u!114 &898707171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8932104225735132242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fd75d2222dabc94cb77cf04c3373026, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _inpuls: 10
+--- !u!114 &898707172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8932104225735132242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da491ed0ed6abc4a8b84035d3e0fbba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _camera: {fileID: 898707171}
+  _explosionParticl: {fileID: 0}
+  _fragments:
+  - {fileID: 1496435171}
+  - {fileID: 1165554276}
+  - {fileID: 23320856}
+  - {fileID: 206311433}
+  - {fileID: 627517003}
+  - {fileID: 889066543}
+  - {fileID: 108096115}
+  - {fileID: 201629909}
+  - {fileID: 1705940186}
+  - {fileID: 208132932}
+  - {fileID: 1994359833}
+  - {fileID: 81638366}
+  - {fileID: 2001981047}
+  - {fileID: 697985826}
+  - {fileID: 872992532}
+  - {fileID: 759944910}
+  - {fileID: 484990978}
+  - {fileID: 686210341}
+  - {fileID: 1177284152}
+  - {fileID: 756252708}
+  - {fileID: 559066383}
+  - {fileID: 1600530605}
+  - {fileID: 1360480401}
+  - {fileID: 1605004534}
+  - {fileID: 258876577}
+  - {fileID: 915873030}
+  - {fileID: 332639239}
+  - {fileID: 96122336}
+  - {fileID: 1916366627}
+--- !u!114 &898707173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8932104225735132242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 764067bff3fdbb246840f099cbaf76ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _size: 2
+--- !u!114 &3574482793149011245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8932104225735132242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0941820753b386e4997ecbefcf6c5fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _baseScore: 12

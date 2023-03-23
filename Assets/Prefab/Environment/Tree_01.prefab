@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 4065792165512271613}
   - component: {fileID: 9071711123850536223}
   - component: {fileID: 5611663164982813274}
-  - component: {fileID: 2731635097511837426}
+  - component: {fileID: 727218817082391907}
   - component: {fileID: 3713709978298513557}
+  - component: {fileID: 5312842369124373386}
   m_Layer: 0
   m_Name: Tree_01
   m_TagString: Untagged
@@ -30,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 863383835640803296}
   m_LocalRotation: {x: 0, y: -0.10786052, z: 0, w: 0.9941661}
   m_LocalPosition: {x: -50.5, y: -134.46, z: -62}
-  m_LocalScale: {x: 7.1783237, y: 7.191519, z: 7.191519}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5379061766483272759}
@@ -65,9 +66,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2045345859530152674, guid: d620a86f1dff89342bd3352356e098da, type: 3}
-  - {fileID: -1345402770840007433, guid: d620a86f1dff89342bd3352356e098da, type: 3}
-  - {fileID: 2979143921612745558, guid: d620a86f1dff89342bd3352356e098da, type: 3}
+  - {fileID: 2100000, guid: 86cf30de359f7eb418e794fc9f723442, type: 2}
+  - {fileID: 2100000, guid: 3b95160a7aae4494c93b8cfcb0621b20, type: 2}
+  - {fileID: 2100000, guid: 1154573d43678734ba44ce0582312975, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -105,7 +106,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &2731635097511837426
+--- !u!65 &727218817082391907
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -116,8 +117,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 6.984001, y: 9.575813, z: 1.9775437}
-  m_Center: {x: 0.15354514, y: 4.7751465, z: 0.06799011}
+  m_Size: {x: 30.903236, y: 66.94139, z: 29.040249}
+  m_Center: {x: 3.0085678, y: 33.470695, z: 0.0001211582}
 --- !u!114 &3713709978298513557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,10 +131,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1a0e7fb116166429686acdcdf6f27b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _forceValue: 15000
+  _forceValue: 40000
   _radius: 0.2
   _upwModifier: 1
   _explosionParticl: {fileID: 5217554983351645189}
+--- !u!114 &5312842369124373386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863383835640803296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0941820753b386e4997ecbefcf6c5fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _baseScore: 6
 --- !u!1001 &5798211859553785279
 PrefabInstance:
   m_ObjectHideFlags: 0

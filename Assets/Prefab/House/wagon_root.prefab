@@ -2230,6 +2230,7 @@ GameObject:
   - component: {fileID: 8562038094434184220}
   - component: {fileID: 51837208703918416}
   - component: {fileID: 5729947062575429086}
+  - component: {fileID: 759261113}
   m_Layer: 0
   m_Name: wagon_root
   m_TagString: Untagged
@@ -2433,6 +2434,19 @@ MonoBehaviour:
     m_DissipationDistance: 5
     m_PropagationSpeed: 343
   m_DefaultVelocity: {x: 0, y: -1, z: 0}
+--- !u!114 &759261113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6234741719031592857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0941820753b386e4997ecbefcf6c5fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _baseScore: 12
 --- !u!1 &7111978612660973694
 GameObject:
   m_ObjectHideFlags: 0

@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 7608065644607042872}
   - component: {fileID: 6347293773254737375}
   - component: {fileID: 6337313873971181329}
-  - component: {fileID: 7608065644607042873}
+  - component: {fileID: 4409715634494864065}
   - component: {fileID: 7211708355198634401}
+  - component: {fileID: 2275523870590220739}
   m_Layer: 0
   m_Name: Tree_09
   m_TagString: Untagged
@@ -30,7 +31,7 @@ Transform:
   m_GameObject: {fileID: 6676798798465447666}
   m_LocalRotation: {x: 0.0851126, y: 0, z: 0, w: 0.9963713}
   m_LocalPosition: {x: -3.5999985, y: -145, z: -17.2}
-  m_LocalScale: {x: 29.745356, y: 29.800035, z: 29.800035}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7491992601911106903}
@@ -65,8 +66,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2045345859530152674, guid: d413f85c1dbc76848a85a4930b9efd49, type: 3}
-  - {fileID: 6652704285882172552, guid: d413f85c1dbc76848a85a4930b9efd49, type: 3}
+  - {fileID: 2100000, guid: 86cf30de359f7eb418e794fc9f723442, type: 2}
+  - {fileID: 2100000, guid: 59769011f8c4275488a0c8f1813b4ae8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -104,7 +105,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &7608065644607042873
+--- !u!65 &4409715634494864065
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -115,8 +116,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.1535273, y: 2.990333, z: 1.1513141}
-  m_Center: {x: 0.00000006412257, y: 1.4938158, z: 0.0011039566}
+  m_Size: {x: 34.605824, y: 89.66993, z: 34.60582}
+  m_Center: {x: 0.0000019073486, y: 44.834965, z: 0}
 --- !u!114 &7211708355198634401
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,10 +130,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb1a0e7fb116166429686acdcdf6f27b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _forceValue: 17000
+  _forceValue: 42000
   _radius: 0.2
   _upwModifier: 1
   _explosionParticl: {fileID: 7293255393242025317}
+--- !u!114 &2275523870590220739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6676798798465447666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0941820753b386e4997ecbefcf6c5fab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _baseScore: 6
 --- !u!1001 &9018952251652435167
 PrefabInstance:
   m_ObjectHideFlags: 0

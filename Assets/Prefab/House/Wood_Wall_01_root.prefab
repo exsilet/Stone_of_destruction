@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7802196756346823946}
   - component: {fileID: 1298895182628313103}
   - component: {fileID: 3411488709782545112}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 1244196921489202641}
   - component: {fileID: 7477862972575835105}
   - component: {fileID: 6352957391424638}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 4907008728850706562}
   - component: {fileID: 1522231970312601906}
   - component: {fileID: 8217465340382692542}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_29
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -263,7 +263,7 @@ GameObject:
   - component: {fileID: 4127844264630244303}
   - component: {fileID: 2804656372619380190}
   - component: {fileID: 6127869211388767902}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -347,7 +347,7 @@ GameObject:
   - component: {fileID: 4818174314348936893}
   - component: {fileID: 7037201823006429995}
   - component: {fileID: 1602199383707061738}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_25
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -431,7 +431,7 @@ GameObject:
   - component: {fileID: 1080231210486769342}
   - component: {fileID: 5218798429718138652}
   - component: {fileID: 2286005052453942566}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -514,7 +514,7 @@ GameObject:
   - component: {fileID: 5612129849264704234}
   - component: {fileID: 4769467773858414959}
   - component: {fileID: 8780084443659532304}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -597,7 +597,7 @@ GameObject:
   - component: {fileID: 4381132568287777285}
   - component: {fileID: 4554006227057943085}
   - component: {fileID: 5028733519588796084}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -681,7 +681,7 @@ GameObject:
   - component: {fileID: 1079389064100549151}
   - component: {fileID: 9181314446034705114}
   - component: {fileID: 749536183848528970}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -765,7 +765,7 @@ GameObject:
   - component: {fileID: 440473091100688648}
   - component: {fileID: 1783827395948256362}
   - component: {fileID: 8141928078529155814}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -849,7 +849,7 @@ GameObject:
   - component: {fileID: 2430497950601924555}
   - component: {fileID: 4858546861390763438}
   - component: {fileID: 6203034417117161194}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -933,7 +933,7 @@ GameObject:
   - component: {fileID: 3434580518657047073}
   - component: {fileID: 1089253370730221756}
   - component: {fileID: 3952850752407895626}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_27
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1017,7 +1017,7 @@ GameObject:
   - component: {fileID: 632410183677839940}
   - component: {fileID: 7172196481732313512}
   - component: {fileID: 3272373983597175219}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1101,7 +1101,7 @@ GameObject:
   - component: {fileID: 5756084194751632700}
   - component: {fileID: 5115891314072127767}
   - component: {fileID: 4319991680544787358}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1245,7 +1245,7 @@ GameObject:
   - component: {fileID: 417011485312933901}
   - component: {fileID: 596520831782232686}
   - component: {fileID: 8847682361039728444}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1329,7 +1329,7 @@ GameObject:
   - component: {fileID: 2411214563668693686}
   - component: {fileID: 8634611002833200313}
   - component: {fileID: 6972246054129511878}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1413,7 +1413,7 @@ GameObject:
   - component: {fileID: 3198477971261992327}
   - component: {fileID: 8828953712879813009}
   - component: {fileID: 2833885793512404638}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1496,7 +1496,7 @@ GameObject:
   - component: {fileID: 2720864875228844003}
   - component: {fileID: 7348211357610504588}
   - component: {fileID: 6026051365992153321}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1580,7 +1580,7 @@ GameObject:
   - component: {fileID: 5526138879562422798}
   - component: {fileID: 8639615701350722995}
   - component: {fileID: 7671246470639050028}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1663,7 +1663,7 @@ GameObject:
   - component: {fileID: 1436863616717131443}
   - component: {fileID: 296966382104585457}
   - component: {fileID: 4755863040322119826}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1747,7 +1747,7 @@ GameObject:
   - component: {fileID: 8720765606113212172}
   - component: {fileID: 6682563190409361055}
   - component: {fileID: 4357485010407635888}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_26
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1831,7 +1831,7 @@ GameObject:
   - component: {fileID: 2639264272652483752}
   - component: {fileID: 96360143463587695}
   - component: {fileID: 8875800148628469755}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1915,7 +1915,7 @@ GameObject:
   - component: {fileID: 7976965785075938780}
   - component: {fileID: 4290851770559044977}
   - component: {fileID: 265842127288650253}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_30
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1999,7 +1999,7 @@ GameObject:
   - component: {fileID: 7564929821142852125}
   - component: {fileID: 1444017239901870345}
   - component: {fileID: 86851359993492251}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2083,7 +2083,7 @@ GameObject:
   - component: {fileID: 2465209416089743216}
   - component: {fileID: 5255323505623714560}
   - component: {fileID: 3443005383593489154}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2167,7 +2167,7 @@ GameObject:
   - component: {fileID: 3668073609363829524}
   - component: {fileID: 8824490436925794875}
   - component: {fileID: 2965446330022186548}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_28
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2251,7 +2251,7 @@ GameObject:
   - component: {fileID: 6692640983856029959}
   - component: {fileID: 7172503084241975647}
   - component: {fileID: 7386234725898355923}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2334,7 +2334,7 @@ GameObject:
   - component: {fileID: 2607216028054114028}
   - component: {fileID: 141499926776140957}
   - component: {fileID: 3358144363486522237}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2418,7 +2418,7 @@ GameObject:
   - component: {fileID: 3700358746996389773}
   - component: {fileID: 7566966306748874757}
   - component: {fileID: 5558364394230542892}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2502,7 +2502,7 @@ GameObject:
   - component: {fileID: 1659613290782634454}
   - component: {fileID: 1937703733786506821}
   - component: {fileID: 3581114310142882776}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wood_Wall_01_sh_18
   m_TagString: Untagged
   m_Icon: {fileID: 0}

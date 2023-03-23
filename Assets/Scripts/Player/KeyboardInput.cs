@@ -7,13 +7,10 @@ public class KeyboardInput : MonoBehaviour
     [SerializeField] private PhysicsMovement _movement;
     [SerializeField] private float _speedForward;
     [SerializeField] private FloatingJoystick _joystick;
-
-    private float _updateSpeed;
+    
     private float moveVector;
     private bool _isKeyboardInput;
     private const string Horizontal = "Horizontal";
-
-    public float UpdateSpeed => _updateSpeed;
 
     private void FixedUpdate()
     {
