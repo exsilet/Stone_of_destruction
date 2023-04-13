@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1696548491204130611}
   - component: {fileID: 1696548491204130613}
   - component: {fileID: 1696548491204130612}
+  - component: {fileID: 8654485866535764973}
   m_Layer: 10
   m_Name: SaveLoadService
   m_TagString: Untagged
@@ -68,5 +69,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 47af9bb6de8c6d54cb980b3d6e743d22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8654485866535764973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696548491204130608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e0963f6d5a144b2934618b469d64c60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

@@ -26,11 +26,11 @@ public class PhysicsMovement : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody>();
         currentScale = transform.localScale.x;
         Time.timeScale = 1;
-        StartCoroutine(StartIncrese());
+        StartCoroutine(StartIncrease());
 
     }
 
-    private IEnumerator StartIncrese()
+    private IEnumerator StartIncrease()
     {
         yield return null;
         IncreaseVolume();
@@ -56,11 +56,11 @@ public class PhysicsMovement : MonoBehaviour
         currentSpeed = _speedForward * _increaseSpeed;
     }
 
-    public void VolumeScale(float speedMovet)
+    public void VolumeScale(float movementSpeed)
     {
         if (transform.localScale.x < currentScale)
         {
-            speedMovet = 0;
+            movementSpeed = 0;
             _rigidbody.velocity = Vector3.zero;
             EndLevels?.Invoke();
         }

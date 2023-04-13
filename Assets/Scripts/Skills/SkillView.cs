@@ -1,4 +1,3 @@
-using Lean.Localization;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
@@ -24,16 +23,16 @@ public class SkillView : MonoBehaviour
             return;
 
         _sellButton.onClick.AddListener(OnClick);
-        _skill.UpgradePriceSkill += RefrashPrice;
+        _skill.UpgradePriceSkill += RefreshPrice;
     }
 
     private void OnDisable()
     {
         _sellButton.onClick.RemoveListener(OnClick);
-        _skill.UpgradePriceSkill -= RefrashPrice;
+        _skill.UpgradePriceSkill -= RefreshPrice;
     }
 
-    private void RefrashPrice(int newPrice)
+    private void RefreshPrice(int newPrice)
     {
         _price.text = newPrice.ToString();
     }
@@ -42,12 +41,11 @@ public class SkillView : MonoBehaviour
     {
         _skill = skill;
         _label.text = skill.Label;
-        _description.text = skill.Descrition;
+        _description.text = skill.Description;
         _icon.sprite = skill.Icon;
         _price.text = skill.Price.ToString();
         _upgrade.Initialize(skill);
         _upgrade.IconUpgrade(skill.UpgradeCount);
-        Debug.Log(skill.Label);
         _skill.UpgradeCount = 0;
 
         _isInitialized = true;

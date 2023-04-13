@@ -1,24 +1,46 @@
+using Agava.YandexGames;
+using SaveData;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class NextLevels : MonoBehaviour
 {
-    [SerializeField] private MoneyBalance _balance;
+    [SerializeField] private PlayerMoney _balance;
     [SerializeField] private SaveLoadMoney _saveMoney;
     [SerializeField] private SaveLoadScore _saveScore;
+    [SerializeField] private SaveLoadeLevels _saveLevels;
     [SerializeField] private WaveCounter _wave;
 
-    public void LoadScene(int sceneId)
+    private int sceneIndexLoad;
+
+    public void NextLoadScene()
+    {
+        InterstitialAd.Show(null, OnCloseCallback, OnErrorCallback);
+        //NextScene();
+    }
+    
+    private void OnErrorCallback(string obj)
+    {
+        NextScene();
+    }
+
+    private void OnCloseCallback(bool obj)
+    {
+        NextScene();
+    }
+
+    private void NextScene()
     {
         _saveMoney.SummMoney(_balance.SummMoney());
         _saveScore.SumScore(_wave.GetScore);
-        
-        SceneManager.LoadScene(sceneId);
-    }
 
-    public void FaildToMenu(int sceneId)
-    {
-        _saveMoney.SummMoney(_balance.SummMoney());
-        SceneManager.LoadScene(sceneId);
+        int sceneIndex = SceneManager.GetActiveScene().buildIndex;
+        sceneIndexLoad = _saveLevels.ReadLevel();
+
+        if (sceneIndex >= sceneIndexLoad)
+        {
+            _saveLevels.UnLockLevel(sceneIndex + 1);
+            SceneManager.LoadScene(sceneIndex + 1);
+        }
     }
 }

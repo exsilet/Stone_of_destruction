@@ -1,6 +1,7 @@
 using Lean.Localization;
 using System;
 using System.Collections;
+using SaveData;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -8,11 +9,11 @@ public class Skill : MonoBehaviour
 {
     [SerializeField] private Sprite _icon;
     [SerializeField] private LeanPhrase _phrase;
-    [SerializeField] private LeanPhrase _phraseDescrition;
+    [SerializeField] private LeanPhrase _phraseDescription;
     [SerializeField] private int _basePrice;
     [SerializeField] private float _baseCoffecient;
     [SerializeField] private int _upgradeLimit = 6;
-    [SerializeField] private SaveLoadSkills _saveLoadSkills;
+    [SerializeField] private SaveAndLoadSkinSkills saveAndLoadSkinSkills;
 
     private int _price = 0;
 
@@ -20,7 +21,7 @@ public class Skill : MonoBehaviour
     public Sprite Icon => _icon;
     public string Label => LeanLocalization.GetTranslationText(_phrase.name);
 
-    public string Descrition => LeanLocalization.GetTranslationText(_phraseDescrition.name);
+    public string Description => LeanLocalization.GetTranslationText(_phraseDescription.name);
 
     public float UpgradeLimit => _upgradeLimit;
     public int Price
@@ -43,11 +44,11 @@ public class Skill : MonoBehaviour
 
     private void Start()
     {
-        UpgradeCount = _saveLoadSkills.ReadStarData(Label);
-        StartCoroutine(StartIncrese());
+        UpgradeCount = saveAndLoadSkinSkills.ReadStarData(Label);
+        StartCoroutine(StartIncrease());
     }
 
-    private IEnumerator StartIncrese()
+    private IEnumerator StartIncrease()
     {
         yield return null;
         UpgradePrice();
@@ -64,7 +65,7 @@ public class Skill : MonoBehaviour
 
     public void UpgradePrice()
     {
-        _price = _basePrice * (UpgradeCount + 1);
+        _price = (int)(_basePrice * ((UpgradeCount + 1)*1.5f));
         UpgradePriceSkill?.Invoke(_price);
     }
 

@@ -1,23 +1,18 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
+using Agava.YandexGames;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Agava.YandexGames;
 
 public class Inicialize : MonoBehaviour
 {
-    private const int nameScene = 1;
+    private const int _nameScene = 1;
     private const int textureQualityMobile = 2;
-    private const int textureQuality = 8;
+    private const int textureQuality = 4;
     
 
     private void Start()
     {
-        if (Application.isMobilePlatform)
-            RenderTexture.active.antiAliasing = textureQualityMobile;
-        else
-            RenderTexture.active.antiAliasing = textureQuality;
+        RenderTexture.active.antiAliasing = Application.isMobilePlatform ? textureQualityMobile : textureQuality;
     }
 
     private void Awake()
@@ -39,6 +34,6 @@ public class Inicialize : MonoBehaviour
 #endif
 
         //GameAnalytics.Initialize();
-        SceneManager.LoadScene(nameScene);
+        SceneManager.LoadScene(_nameScene);
     }
 }

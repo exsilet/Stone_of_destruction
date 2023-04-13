@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Attraction : MonoBehaviour
 {
-    [SerializeField] private MagnetPlayer _player;
     [SerializeField] private float _speedMagnet;
 
     private Rigidbody _rigidbody;

@@ -4,21 +4,21 @@ public class SaveLoadMoney : MonoBehaviour
 {
     private const string CoinKey = "CoinKey";
 
-    private DataBase _dataBase;
+    private DataBase dataBase;
 
     public void SummMoney(int money)
     {
-        _dataBase.AllMoney = money;
+        dataBase.AllMoney = money;
     }
 
     public int ReadMoney()
     {
-        return _dataBase.AllMoney;
+        return dataBase.AllMoney;
     }
 
     private void OnEnable()
     {
-        _dataBase = PlayerPrefs.HasKey(CoinKey)
+        dataBase = PlayerPrefs.HasKey(CoinKey)
             ? JsonUtility.FromJson<DataBase>(PlayerPrefs.GetString(CoinKey))
             : new DataBase();
     }
@@ -30,7 +30,7 @@ public class SaveLoadMoney : MonoBehaviour
 
     private void Save()
     {
-        PlayerPrefs.SetString(CoinKey, JsonUtility.ToJson(_dataBase));
+        PlayerPrefs.SetString(CoinKey, JsonUtility.ToJson(dataBase));
         PlayerPrefs.Save();
     }
 }

@@ -3,12 +3,12 @@
     public class LevelScore
     {
         public int LevelKey;
-        public int ScoreLevel;
+        public int CurrenLevel;
 
-        public LevelScore(int levelKey, int scoreLevel)
+        public LevelScore(int levelKey, int currenLevel)
         {
             LevelKey = levelKey;
-            ScoreLevel = scoreLevel;
+            CurrenLevel = currenLevel;
         }
     }
 }

@@ -3,7 +3,7 @@ using UnityEngine;
 public class PathPoints : MonoBehaviour
 {
     [SerializeField] private WaveCounter _wave;
-    [SerializeField] private int _coffecient;
+    [SerializeField] private int _coefficient;
 
     private float _distance;
     private bool _stopDistance = true;
@@ -14,7 +14,7 @@ public class PathPoints : MonoBehaviour
         _currentPosition = transform.position;
     }
 
-    private void UpdateDistans()
+    private void UpdateDistance()
     {
         if (_stopDistance)
             _distance = Mathf.Abs(transform.position.z - _currentPosition.z);
@@ -24,9 +24,9 @@ public class PathPoints : MonoBehaviour
     {
         if (other.gameObject.TryGetComponent(out FactorMoney factor))
         {
-            UpdateDistans();
+            UpdateDistance();
             _stopDistance = false;
-            _distance /= _coffecient;
+            _distance /= _coefficient;
             _wave.AddPoints((int)_distance);
         }
     }

@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Agava.YandexGames;
 
 public class YandexLeaderboard : MonoBehaviour
 {
-    [SerializeField] private LeaderboardElement[] _liderboars;
-    [SerializeField] private Transform _langues;
+    [SerializeField] private LeaderboardElement[] _leaderboards;
+    [SerializeField] private Transform _languages;
     [SerializeField] private Transform _leaderBoard;
     [SerializeField] private Transform _listleaderBoard;
     [SerializeField] private Transform _notLogin;
@@ -15,7 +13,7 @@ public class YandexLeaderboard : MonoBehaviour
     [SerializeField] private int _topPlayersCount = 3;
     [SerializeField] private int _competingPlayersCount = 5;
 
-    private const string WavesLeader = "Leader";
+    private const string WavesLeader = "BestPlayers";
     private const string Anonymous = "Anonymous";
 
     private void Start()
@@ -26,7 +24,7 @@ public class YandexLeaderboard : MonoBehaviour
     public void Show()
     {
         _leaderBoard.gameObject.SetActive(true);
-        _langues.gameObject.SetActive(false);
+        _languages.gameObject.SetActive(false);
 
 #if !UNITY_EDITOR
 
@@ -49,8 +47,8 @@ public class YandexLeaderboard : MonoBehaviour
                     if (string.IsNullOrEmpty(name))
                         name = Anonymous;
 
-                    _liderboars[i].gameObject.SetActive(true);
-                    _liderboars[i].Render(_converter.ToLeaderboardElemetData(entry.rank, entry.player.lang, name, entry.score));
+                    _leaderboards[i].gameObject.SetActive(true);
+                    _leaderboards[i].Render(_converter.ToLeaderboardElementData(entry.rank, entry.player.lang, name, entry.score));
                 }
             }, null, _topPlayersCount, _competingPlayersCount);
         }
@@ -58,37 +56,37 @@ public class YandexLeaderboard : MonoBehaviour
         {
             _notLogin.gameObject.SetActive(true);
             _listleaderBoard.gameObject.SetActive(false);
-            _langues.gameObject.SetActive(false);
+            _languages.gameObject.SetActive(false);
 
         }
 #endif
     }
 
-    public void Avtorized()
+    public void Authorized()
     {
 #if !UNITY_EDITOR
         PlayerAccount.Authorize();
 #endif
     }
 
-    public void SetScore(int scoreEmaunt)
+    public void OnClosetButtonClick()
+    {
+        _leaderBoard.gameObject.SetActive(false);
+        _languages.gameObject.SetActive(true);
+
+        foreach (var element in _leaderboards)
+        {
+            element.gameObject.SetActive(false);
+        }
+    }
+
+    private void SetScore(int scoreAmount)
     {
 #if !UNITY_EDITOR
         if (PlayerAccount.IsAuthorized)
         {
-            Leaderboard.SetScore(WavesLeader, scoreEmaunt);
+            Leaderboard.SetScore(WavesLeader, scoreAmount);
         }
 #endif
-    }
-
-    public void OnClosetButtonClick()
-    {
-        _leaderBoard.gameObject.SetActive(false);
-        _langues.gameObject.SetActive(true);
-
-        for (int i = 0; i < _liderboars.Length; i++)
-        {
-            _liderboars[i].gameObject.SetActive(false);
-        }
     }
 }

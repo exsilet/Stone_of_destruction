@@ -15,25 +15,24 @@ public class ColisionHendler : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.TryGetComponent(out VolumeGrowth grous))
+        if (other.gameObject.TryGetComponent(out VolumeGrowth growth))
         {
-            transform.localScale = new Vector3(transform.localScale.x + grous.Volume, transform.localScale.y + grous.Volume, transform.localScale.z + grous.Volume);
+            Vector3 localScale = transform.localScale;
+            localScale = new Vector3(localScale.x + growth.Volume, localScale.y + growth.Volume, localScale.z + growth.Volume);
+            transform.localScale = localScale;
         }
 
         if (other.gameObject.TryGetComponent(out DecreaseSize decrease))
         {
-            transform.localScale = new Vector3(transform.localScale.x - decrease.Size, transform.localScale.y - decrease.Size, transform.localScale.z - decrease.Size);
+            Vector3 localScale = transform.localScale;
+            localScale = new Vector3(localScale.x - decrease.Size, localScale.y - decrease.Size, localScale.z - decrease.Size);
+            transform.localScale = localScale;
         }
 
         if (other.gameObject.TryGetComponent(out FactorMoney factorMoney))
         {
             _endLevels.SetCollision();
             currentFactor += (int)factorMoney.Factor;
-
-            if (transform.localScale.x < currentScale)
-            {
-                _player.FactorMoney(currentFactor);
-            }
         }
 
         if (other.gameObject.TryGetComponent(out Explosion explosion))

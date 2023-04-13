@@ -45,8 +45,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _icon: {fileID: 21300000, guid: 494f56e2fb2814696b824ae89249b018, type: 3}
-  _label: Speed
-  _description: 5% speed increase while descending
+  _phrase: {fileID: 780497487459759415, guid: e1de557080151434e9f591bc6aec1dcf, type: 3}
+  _phraseDescription: {fileID: 0}
   _basePrice: 10
   _baseCoffecient: 0.05
   _upgradeLimit: 6

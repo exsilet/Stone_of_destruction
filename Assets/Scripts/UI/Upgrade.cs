@@ -1,6 +1,4 @@
-using System;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class Upgrade : MonoBehaviour
@@ -11,18 +9,14 @@ public class Upgrade : MonoBehaviour
 
     private Skill _skills;
 
-    //private void Start()
-    //{
-    //    IconUpgrade(_skills.UpgradeCount);
-    //}
-
     public void Initialize(Skill skills)
     {
         _skills = skills;
-        _skills.Upgraded += OnSkillsUpgaded;
+        _skills.Upgraded += OnSkillsUpgraded;
+        ButtonLimitUpgrade();
     }
 
-    private void OnSkillsUpgaded(int upgradeCount)
+    private void OnSkillsUpgraded(int upgradeCount)
     {
         if (_skills.UpgradeCount <= _skills.UpgradeLimit)
         {
@@ -30,17 +24,18 @@ public class Upgrade : MonoBehaviour
             _emptyIcon[upgrade].overrideSprite = _fillIcon;
         }
 
+        ButtonLimitUpgrade();
+    }
+
+    private void ButtonLimitUpgrade()
+    {
         if (_skills.UpgradeLimit == _skills.UpgradeCount)
-        {
             _button.interactable = !_button.interactable;
-        }
     }
 
     public void IconUpgrade(int upgradeCount)
     {
         for (int i = 0; i < upgradeCount; i++)
-        {
             _emptyIcon[i].overrideSprite = _fillIcon;
-        }
     }
 }

@@ -7,7 +7,7 @@ public class OpenShop : MonoBehaviour
     [SerializeField] private GameObject _panelMenu;
     [SerializeField] private GameObject _panelShop;
     [SerializeField] private GameObject _panelUpgrade;
-    [SerializeField] private Transform _langues;
+    [SerializeField] private Transform _languages;
     [SerializeField] private Transform _commonPanel;
 
     private void Start()
@@ -23,7 +23,7 @@ public class OpenShop : MonoBehaviour
         panel.SetActive(true);
         _panelMenu.SetActive(false);
         _panelUpgrade.SetActive(false);
-        _langues.gameObject.SetActive(false);
+        _languages.gameObject.SetActive(false);
     }
 
     public void ClosePanel(GameObject panel)
@@ -31,6 +31,6 @@ public class OpenShop : MonoBehaviour
         panel.SetActive(false);
         _panelMenu.SetActive(true);
         _panelUpgrade.SetActive(true);
-        _langues.gameObject.SetActive(true);
+        _languages.gameObject.SetActive(true);
     }
 }

@@ -1,9 +1,5 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Networking;
 using UnityEngine.UI;
 
 public class LeaderboardElement : MonoBehaviour
@@ -17,12 +13,12 @@ public class LeaderboardElement : MonoBehaviour
     [SerializeField] private TMP_Text _scoreText;
     [SerializeField] private Image _trophy;
 
-    public void Render(LeaderboardElemetData elemetData)
+    public void Render(LeaderboardElemetData elementData)
     {
         
-        _placeText.SetText(elemetData.Place.ToString());
-        _langImage.sprite = elemetData.Lang;
-        _nickName.SetText(elemetData.Name);
-        _scoreText.SetText(elemetData.Result.ToString());
+        _placeText.SetText(elementData.Place.ToString());
+        _langImage.sprite = elementData.Lang;
+        _nickName.SetText(elementData.Name);
+        _scoreText.SetText(elementData.Result.ToString());
     }
 }
