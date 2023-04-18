@@ -12,14 +12,14 @@ public class Money : MonoBehaviour
     [SerializeField] private List<Skill> _skillPrefabs;
 
     private int _moneyLevelSkill;
-
+    
     private void Start()
     {
         foreach (var skill in _skillPrefabs)
         {
-            if (_moneySkill.Label == skill.Label)
+            if (_moneySkill.Type == skill.Type)
             {
-                _moneyLevelSkill = andLoadSkinSkills.ReadStarData(skill.Label);
+                _moneyLevelSkill = andLoadSkinSkills.ReadStarData((int)skill.Type);
                 CoinMultiplier();
             }
         }

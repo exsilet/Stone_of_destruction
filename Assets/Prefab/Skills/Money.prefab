@@ -44,11 +44,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45482ab3242e77140a75de353e10b1ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _type: 3
   _icon: {fileID: 21300000, guid: ce0dfd54574d644aea051e0f91555b1d, type: 3}
   _phrase: {fileID: 2305196354500015354, guid: 39d12d6c1d0e8f8449a476ad5950fd43, type: 3}
   _phraseDescription: {fileID: 0}
   _basePrice: 60
   _baseCoffecient: 0.2
   _upgradeLimit: 6
-  _saveLoadSkills: {fileID: 0}
+  saveAndLoadSkinSkills: {fileID: 0}
   UpgradeCount: 0

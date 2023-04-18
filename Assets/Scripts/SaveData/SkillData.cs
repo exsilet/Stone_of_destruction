@@ -4,10 +4,10 @@ using System;
 public class SkillData
 {
     public int Stars;
-    public string NameSkill;
-    public SkillData(string nameSkill, int stars)
+    public int Type;
+    public SkillData(int type, int stars)
     {
         Stars = stars;
-        NameSkill = nameSkill;
+        Type = type;
     }
 }

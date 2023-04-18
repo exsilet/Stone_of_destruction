@@ -25,7 +25,7 @@ public class Shop : MonoBehaviour
 
         foreach (var skill in _skillPrefabs)
         {
-            skill.UpgradeCount = saveAndLoadSkinSkills.ReadStarData(skill.Label);
+            skill.UpgradeCount = saveAndLoadSkinSkills.ReadStarData((int)skill.Type);
         }
 
         _isStarted = true;
@@ -68,7 +68,7 @@ public class Shop : MonoBehaviour
             _playerMoney.BuyUpgrade(skills);
             skills.Upgrade();
             skills.UpgradePrice();
-            saveAndLoadSkinSkills.SaveStarData(skills.Label, skills.UpgradeCount);
+            saveAndLoadSkinSkills.SaveStarData((int)skills.Type, skills.UpgradeCount);
         }
     }
 }

@@ -24,10 +24,10 @@ namespace SaveData
             Save();
         }
 
-        public void SaveStarData(string nameSkill, int amountStar)
+        public void SaveStarData(int type, int amountStar)
         {
-            if (dataBase.Read(nameSkill) < amountStar)
-                dataBase.Add(nameSkill, amountStar);
+            if (dataBase.Read(type) < amountStar)
+                dataBase.Add(type, amountStar);
 
             Save();
         }
@@ -38,7 +38,7 @@ namespace SaveData
             PlayerPrefs.Save();
         }
 
-        public int ReadStarData(string nameSkill) => dataBase.Read(nameSkill);
+        public int ReadStarData(int type) => dataBase.Read(type);
 
         public void SaveBuyData(string nameSkin, bool buySkin, bool selectSkin)
         {

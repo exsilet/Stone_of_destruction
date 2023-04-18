@@ -7,6 +7,7 @@ using UnityEngine.Events;
 
 public class Skill : MonoBehaviour
 {
+    [SerializeField] private SkillTypeId _type;
     [SerializeField] private Sprite _icon;
     [SerializeField] private LeanPhrase _phrase;
     [SerializeField] private LeanPhrase _phraseDescription;
@@ -18,6 +19,8 @@ public class Skill : MonoBehaviour
     private int _price = 0;
 
     public int UpgradeCount = 0;
+
+    public SkillTypeId Type => _type;
     public Sprite Icon => _icon;
     public string Label => LeanLocalization.GetTranslationText(_phrase.name);
 
@@ -44,7 +47,7 @@ public class Skill : MonoBehaviour
 
     private void Start()
     {
-        UpgradeCount = saveAndLoadSkinSkills.ReadStarData(Label);
+        UpgradeCount = saveAndLoadSkinSkills.ReadStarData((int)Type);
         StartCoroutine(StartIncrease());
     }
 

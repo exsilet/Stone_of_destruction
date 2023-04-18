@@ -13,6 +13,9 @@ scopes = {
 	"last_search.DA949528" = "explo"
 	"OpenInspectorPreview.DA949528" = "0"
 	"currentGroup.DA949528" = "all"
+	"last_search.2138236A" = ".jpg"
+	"OpenInspectorPreview.2138236A" = "0"
+	"currentGroup.2138236A" = "asset"
 }
 providers = {
 	adb = {
@@ -59,6 +62,8 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	".jpg"
+	"T_Lava03_emissive"
 ]
 searchItemFavorites = [
 ]

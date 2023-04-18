@@ -70,25 +70,22 @@ public class DataBase
         }
     }
 
-    public void Add(string nameSkill, int stars)
+    public void Add(int type, int stars)
     {
-        foreach (var data in SkillsData)
+        foreach (var data in SkillsData.Where(data => data.Type == type))
         {
-            if (data.NameSkill == nameSkill)
-            {
-                data.Stars = stars;
-                return;
-            }
+            data.Stars = stars;
+            return;
         }
 
-        SkillsData.Add(new SkillData(nameSkill, stars));
+        SkillsData.Add(new SkillData(type, stars));
     }
 
-    public int Read(string nameSkill)
+    public int Read(int type)
     {
         foreach (var data in SkillsData)
         {
-            if (data.NameSkill == nameSkill)
+            if (data.Type == type)
             {
                 return data.Stars;
             }
