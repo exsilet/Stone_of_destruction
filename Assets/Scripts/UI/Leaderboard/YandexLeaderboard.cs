@@ -13,7 +13,7 @@ public class YandexLeaderboard : MonoBehaviour
     [SerializeField] private int _topPlayersCount = 3;
     [SerializeField] private int _competingPlayersCount = 5;
 
-    private const string WavesLeader = "BestPlayers";
+    private const string WavesLeader = "BestInTheGame";
     private const string Anonymous = "Anonymous";
 
     private void Start()
