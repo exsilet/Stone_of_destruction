@@ -23,7 +23,7 @@ public class PlayerMoney : MonoBehaviour
         _currentMoney = _saveLoadMoney.ReadMoney();
         CurrentMoneyChanged?.Invoke(_currentMoney);
         _currentMoneyLevel = _currentMoney;
-        //AddMoney(120000);
+        //AddMoney(3000);
     }
 
     public void IncreaseMoney(int value)
